@@ -10,8 +10,8 @@ import rpm
 WORK_DIR = os.getcwd()+"/"
 TODAY = datetime.datetime.now().strftime('%Y-%m-%d')
 JSON_URL = "http://distrobuildsync-eln-ops.apps.stream.rdu2.redhat.com/status.json"
-OUTPUT_FILE = "failed."+TODAY
-OLD_FILE = "failed.last"
+OUTPUT_FILE = "failed-builds."+TODAY
+OLD_FILE = "failed-builds.json"
 TAG = "eln"
 
 # Get our data
