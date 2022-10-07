@@ -1,77 +1,52 @@
 {
-    "akonadi-import-wizard": {
-        "name": "akonadi-import-wizard",
-        "notes": "2022-10-06 NEW",
-        "nvr": "akonadi-import-wizard-22.08.1-1.eln121"
-    },
-    "akonadiconsole": {
-        "name": "akonadiconsole",
-        "notes": "2022-10-06 NEW",
-        "nvr": "akonadiconsole-22.08.1-1.eln121"
-    },
-    "akregator": {
-        "name": "akregator",
-        "notes": "2022-10-06 NEW",
-        "nvr": "akregator-22.08.1-1.eln121"
-    },
     "argparse-manpage": {
         "name": "argparse-manpage",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAIL - Fails in %check",
         "nvr": "argparse-manpage-3-3.eln120"
-    },
-    "booth": {
-        "name": "booth",
-        "notes": "2022-10-06 NEW",
-        "nvr": "booth-1.0-272.1.7acb757.git.eln121"
     },
     "bpftrace": {
         "name": "bpftrace",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAIL - /builddir/build/BUILD/bpftrace-0.16.0/src/bpftrace.cpp:2042:20: error: 'istream_iterator' is not a member of 'std'",
         "nvr": "bpftrace-0.16.0-3.eln121"
     },
     "btrfs-fuse": {
         "name": "btrfs-fuse",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "btrfs-fuse-0-8.20220301gitca53ed5.eln120"
     },
     "buildah": {
         "name": "buildah",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
         "nvr": "buildah-1.28.0-1.eln121"
     },
     "cjose": {
         "name": "cjose",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "cjose-0.6.1-10.eln120"
     },
     "coffee-script": {
         "name": "coffee-script",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "coffee-script-1.10.0-18.eln120"
     },
     "community-mysql": {
         "name": "community-mysql",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAIL - Fails on %check",
         "nvr": "community-mysql-8.0.30-2.eln121"
-    },
-    "compiler-rt": {
-        "name": "compiler-rt",
-        "notes": "2022-10-06 NEW",
-        "nvr": "compiler-rt-15.0.0-2.eln121"
     },
     "containernetworking-plugins": {
         "name": "containernetworking-plugins",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
         "nvr": "containernetworking-plugins-1.1.1-8.eln121"
     },
     "crun": {
         "name": "crun",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
         "nvr": "crun-1.6-3.eln121"
     },
     "dotnet6.0": {
         "name": "dotnet6.0",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAIL - Many errors, cannot figure out problem",
         "nvr": "dotnet6.0-6.0.108-2.eln121"
     },
     "enchant2": {
@@ -86,13 +61,8 @@
     },
     "firefox": {
         "name": "firefox",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 ??? - Does not seem to attempt builds",
         "nvr": "firefox-105.0.1-2.eln121"
-    },
-    "gdal": {
-        "name": "gdal",
-        "notes": "2022-10-06 NEW",
-        "nvr": "gdal-3.5.2-1.eln121"
     },
     "gnome-initial-setup": {
         "name": "gnome-initial-setup",
@@ -116,187 +86,152 @@
     },
     "golang-code-cloudfoundry-bytefmt": {
         "name": "golang-code-cloudfoundry-bytefmt",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-code-cloudfoundry-bytefmt-0-0.9.20210114gitcf55d52.eln120"
     },
     "golang-code-cloudfoundry-clock": {
         "name": "golang-code-cloudfoundry-clock",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-code-cloudfoundry-clock-1.0.0-5.eln120"
-    },
-    "golang-contrib-opencensus-exporter-stackdriver": {
-        "name": "golang-contrib-opencensus-exporter-stackdriver",
-        "notes": "2022-10-06 NEW",
-        "nvr": "golang-contrib-opencensus-exporter-stackdriver-0.13.13-1.eln121"
     },
     "golang-github-aws-sdk-2": {
         "name": "golang-github-aws-sdk-2",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-aws-sdk-2-1.8.0-1.eln120"
     },
     "golang-github-azure-sdk": {
         "name": "golang-github-azure-sdk",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-azure-sdk-55.0.0-2.eln120"
     },
     "golang-github-cockroachdb-sentry": {
         "name": "golang-github-cockroachdb-sentry",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-cockroachdb-sentry-0.6.1-3.eln120"
     },
     "golang-github-d2g-dhcp4client": {
         "name": "golang-github-d2g-dhcp4client",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-d2g-dhcp4client-1.0.0-8.eln120"
     },
     "golang-github-dennwc-varint": {
         "name": "golang-github-dennwc-varint",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-dennwc-varint-1.0.0-2.eln120"
     },
     "golang-github-distribution-3": {
         "name": "golang-github-distribution-3",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-distribution-3-2.8.0~beta.1-4.20220203gitb609265.eln121"
     },
     "golang-github-docker": {
         "name": "golang-github-docker",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-docker-20.10.12-1.eln120"
     },
     "golang-github-docker-swarmkit": {
         "name": "golang-github-docker-swarmkit",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-docker-swarmkit-1.12.0-20.20210420git17d8d4e.eln120"
-    },
-    "golang-github-envoyproxy-control-plane": {
-        "name": "golang-github-envoyproxy-control-plane",
-        "notes": "2022-10-06 NEW",
-        "nvr": "golang-github-envoyproxy-control-plane-0.10.3-2.eln121"
     },
     "golang-github-gin-gonic": {
         "name": "golang-github-gin-gonic",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-gin-gonic-1.6.3-3.eln120"
     },
     "golang-github-gobuffalo-packr": {
         "name": "golang-github-gobuffalo-packr",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-gobuffalo-packr-2.8.1-3.eln120"
-    },
-    "golang-github-google-certificate-transparency": {
-        "name": "golang-github-google-certificate-transparency",
-        "notes": "2022-10-06 NEW",
-        "nvr": "golang-github-google-certificate-transparency-1.1.3-2.eln121"
     },
     "golang-github-grpc-ecosystem-gateway": {
         "name": "golang-github-grpc-ecosystem-gateway",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-grpc-ecosystem-gateway-1.16.0-3.eln120"
     },
     "golang-github-grpc-ecosystem-middleware": {
         "name": "golang-github-grpc-ecosystem-middleware",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-grpc-ecosystem-middleware-1.3.0-1.eln120"
     },
     "golang-github-influxdata-influxdb1-client": {
         "name": "golang-github-influxdata-influxdb1-client",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-influxdata-influxdb1-client-0-0.8.20210109gitb269163.eln120"
-    },
-    "golang-github-jbenet-context": {
-        "name": "golang-github-jbenet-context",
-        "notes": "2022-10-06 NEW",
-        "nvr": "golang-github-jbenet-context-0-0.13.20180402gitd14ea06.eln120"
     },
     "golang-github-macaron-inject": {
         "name": "golang-github-macaron-inject",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-macaron-inject-0-0.16.20210110git138e592.eln120"
     },
     "golang-github-moby-spdystream": {
         "name": "golang-github-moby-spdystream",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-moby-spdystream-0.2.0-2.eln120"
-    },
-    "golang-github-mwitkow-conntrack": {
-        "name": "golang-github-mwitkow-conntrack",
-        "notes": "2022-10-06 NEW",
-        "nvr": "golang-github-mwitkow-conntrack-0-0.10.20200729git2f06839.eln121"
-    },
-    "golang-github-prometheus": {
-        "name": "golang-github-prometheus",
-        "notes": "2022-10-06 NEW",
-        "nvr": "golang-github-prometheus-2.32.1-9.eln121"
     },
     "golang-github-prometheus-alertmanager": {
         "name": "golang-github-prometheus-alertmanager",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-prometheus-alertmanager-0.23.0-9.eln120"
     },
     "golang-github-prometheus-exporter-toolkit": {
         "name": "golang-github-prometheus-exporter-toolkit",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FIXED - SHOULD BE MARKED AS DONE - golang-github-prometheus-exporter-toolkit-0.6.1-5.eln121",
         "nvr": "golang-github-prometheus-exporter-toolkit-0.6.1-3.eln120"
     },
     "golang-github-rogpeppe-charset": {
         "name": "golang-github-rogpeppe-charset",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-rogpeppe-charset-0-0.8.20210110git0dc95cd.eln120"
     },
     "golang-github-stretchr-objx": {
         "name": "golang-github-stretchr-objx",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-stretchr-objx-0.3.0-4.eln120"
     },
     "golang-github-tj-buffer": {
         "name": "golang-github-tj-buffer",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-tj-buffer-1.2.0-2.eln120"
     },
     "golang-github-tklauser-sysconf": {
         "name": "golang-github-tklauser-sysconf",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-tklauser-sysconf-0.3.7-2.eln120"
     },
     "golang-github-ugorji": {
         "name": "golang-github-ugorji",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-ugorji-1.2.3-3.eln120"
     },
     "golang-github-yvasiyarov-metrics": {
         "name": "golang-github-yvasiyarov-metrics",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-yvasiyarov-metrics-0-0.16.20190626gitc25f46c.eln120"
     },
     "golang-github-zmap-zcertificate": {
         "name": "golang-github-zmap-zcertificate",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FIXED - SHOULD BE MARKED AS DONE - golang-github-zmap-zcertificate-0.0.1-8.eln121",
         "nvr": "golang-github-zmap-zcertificate-0.0.1-4.eln120"
     },
     "golang-gopkg-errgo-2": {
         "name": "golang-gopkg-errgo-2",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-gopkg-errgo-2-2.1.0-7.eln120"
     },
     "golang-gopkg-tomb-1": {
         "name": "golang-gopkg-tomb-1",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-gopkg-tomb-1-1-8.20190623gitdd63297.eln120"
     },
     "golang-gopkg-tomb-2": {
         "name": "golang-gopkg-tomb-2",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-gopkg-tomb-2-2-8.20190623gitd5d1b58.eln120"
-    },
-    "golang-k8s-apimachinery": {
-        "name": "golang-k8s-apimachinery",
-        "notes": "2022-10-06 NEW",
-        "nvr": "golang-k8s-apimachinery-1.22.0-5.eln121"
     },
     "golang-mozilla-pkcs7": {
         "name": "golang-mozilla-pkcs7",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAIL - Fails on %check",
         "nvr": "golang-mozilla-pkcs7-0-0.6.20220831git33d0574.eln121"
     },
     "golang-sigs-k8s-apiserver-network-proxy": {
@@ -374,75 +309,25 @@
         "notes": "2022-10-06 NEW",
         "nvr": "htop-3.2.1-2.eln120"
     },
-    "kaddressbook": {
-        "name": "kaddressbook",
-        "notes": "2022-10-06 NEW",
-        "nvr": "kaddressbook-22.08.1-1.eln121"
-    },
-    "kalarm": {
-        "name": "kalarm",
-        "notes": "2022-10-06 NEW",
-        "nvr": "kalarm-22.08.1-1.eln121"
-    },
-    "kdepim-addons": {
-        "name": "kdepim-addons",
-        "notes": "2022-10-06 NEW",
-        "nvr": "kdepim-addons-22.08.1-1.eln121"
-    },
     "keylime-agent-rust": {
         "name": "keylime-agent-rust",
         "notes": "2022-10-06 NEW",
         "nvr": "keylime-agent-rust-0.1.0~20220603gitaed51c7-2.eln121"
     },
-    "kf5-akonadi-contacts": {
-        "name": "kf5-akonadi-contacts",
-        "notes": "2022-10-06 NEW",
-        "nvr": "kf5-akonadi-contacts-22.08.1-1.eln121"
-    },
     "kf5-kalarmcal": {
         "name": "kf5-kalarmcal",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "kf5-kalarmcal-21.12.3-1.eln120"
-    },
-    "kf5-ktexteditor": {
-        "name": "kf5-ktexteditor",
-        "notes": "2022-10-06 NEW",
-        "nvr": "kf5-ktexteditor-5.98.0-1.eln121"
-    },
-    "kf5-mailcommon": {
-        "name": "kf5-mailcommon",
-        "notes": "2022-10-06 NEW",
-        "nvr": "kf5-mailcommon-22.08.1-1.eln121"
     },
     "kig": {
         "name": "kig",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAIL - Not really sure why",
         "nvr": "kig-22.08.1-1.eln121"
-    },
-    "kleopatra": {
-        "name": "kleopatra",
-        "notes": "2022-10-06 NEW",
-        "nvr": "kleopatra-22.08.1-1.eln121"
-    },
-    "kmail": {
-        "name": "kmail",
-        "notes": "2022-10-06 NEW",
-        "nvr": "kmail-22.08.1-1.eln121"
     },
     "kmail-account-wizard": {
         "name": "kmail-account-wizard",
         "notes": "2022-10-06 NEW",
         "nvr": "kmail-account-wizard-22.08.1-1.eln121"
-    },
-    "kontact": {
-        "name": "kontact",
-        "notes": "2022-10-06 NEW",
-        "nvr": "kontact-22.08.1-1.eln121"
-    },
-    "korganizer": {
-        "name": "korganizer",
-        "notes": "2022-10-06 NEW",
-        "nvr": "korganizer-22.08.1-1.eln121"
     },
     "libffi3.1": {
         "name": "libffi3.1",
@@ -521,7 +406,7 @@
     },
     "plasma-nm": {
         "name": "plasma-nm",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAIL - SPEC - extra packages - fix conditional",
         "nvr": "plasma-nm-5.25.90-1.eln121"
     },
     "pstoedit": {
