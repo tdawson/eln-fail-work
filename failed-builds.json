@@ -236,12 +236,12 @@
     },
     "golang-sigs-k8s-apiserver-network-proxy": {
         "name": "golang-sigs-k8s-apiserver-network-proxy",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAILED - x86_64 only - fails in %check",
         "nvr": "golang-sigs-k8s-apiserver-network-proxy-0.0.24-4.eln121"
     },
     "golang-x-time": {
         "name": "golang-x-time",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 PASSED - But version is older",
         "nvr": "golang-x-time-0-0.24.20210123git7e3f01d.eln121"
     },
     "google-gson": {
@@ -256,17 +256,12 @@
     },
     "grafana": {
         "name": "grafana",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAIL - imports crypto/boring: build constraints exclude all Go files in /usr/lib/golang/src/crypto/boring",
         "nvr": "grafana-9.0.9-1.eln121"
-    },
-    "grantlee-editor": {
-        "name": "grantlee-editor",
-        "notes": "2022-10-06 NEW",
-        "nvr": "grantlee-editor-22.08.1-1.eln121"
     },
     "graphviz": {
         "name": "graphviz",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAIL - SPEC -  File not found: /builddir/build/BUILDROOT/graphviz-6.0.1-2.eln122.x86_64/usr/bin/smyrna",
         "nvr": "graphviz-6.0.1-1.eln121"
     },
     "grub2": {
@@ -276,42 +271,27 @@
     },
     "gstreamer1-plugins-bad-free": {
         "name": "gstreamer1-plugins-bad-free",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAIL - meson.build:1:0: ERROR: Unknown options: vdpau",
         "nvr": "gstreamer1-plugins-bad-free-1.20.3-2.eln120"
     },
     "gstreamer1-plugins-good": {
         "name": "gstreamer1-plugins-good",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAIL - build config - tests/examples/jack/meson.build:1:15: ERROR: Unknown variable libjack_dep.",
         "nvr": "gstreamer1-plugins-good-1.20.3-3.eln121"
-    },
-    "guestfs-tools": {
-        "name": "guestfs-tools",
-        "notes": "2022-10-06 NEW",
-        "nvr": "guestfs-tools-1.49.3-2.eln121"
     },
     "hdf": {
         "name": "hdf",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 DEPS - nothing provides (java-headless or java-11-headless or java-1.8.0-headless) needed by hamcrest-2.2-8.eln121.noarch",
         "nvr": "hdf-4.2.15-11.eln120"
     },
     "hdf5": {
         "name": "hdf5",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 DEPS - nothing provides (java-headless or java-11-headless or java-1.8.0-headless) needed by hamcrest-2.2-8.eln121.noarch",
         "nvr": "hdf5-1.12.1-10.eln120"
-    },
-    "hivex": {
-        "name": "hivex",
-        "notes": "2022-10-06 NEW",
-        "nvr": "hivex-1.3.21-11.eln120"
-    },
-    "htop": {
-        "name": "htop",
-        "notes": "2022-10-06 NEW",
-        "nvr": "htop-3.2.1-2.eln120"
     },
     "keylime-agent-rust": {
         "name": "keylime-agent-rust",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAIL - error: failed to select a version for the requirement `clap = ^3.1.18`",
         "nvr": "keylime-agent-rust-0.1.0~20220603gitaed51c7-2.eln121"
     },
     "kf5-kalarmcal": {
@@ -323,11 +303,6 @@
         "name": "kig",
         "notes": "2022-10-06 BUILD FAIL - Not really sure why",
         "nvr": "kig-22.08.1-1.eln121"
-    },
-    "kmail-account-wizard": {
-        "name": "kmail-account-wizard",
-        "notes": "2022-10-06 NEW",
-        "nvr": "kmail-account-wizard-22.08.1-1.eln121"
     },
     "libffi3.1": {
         "name": "libffi3.1",
@@ -364,11 +339,6 @@
         "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "maven-scm-1.10.0-13.eln120"
     },
-    "mbox-importer": {
-        "name": "mbox-importer",
-        "notes": "2022-10-06 NEW",
-        "nvr": "mbox-importer-22.08.1-1.eln121"
-    },
     "mozjs102": {
         "name": "mozjs102",
         "notes": "2022-10-06 BUILD FAIL - LLVM - /usr/bin/clang++: symbol lookup error: /lib64/libclang-cpp.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
@@ -381,28 +351,18 @@
     },
     "opencv": {
         "name": "opencv",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 DEPS - nothing provides libpoppler.so.117()(64bit) needed by gdcm-applications-3.0.12-5.eln121.x86_64",
         "nvr": "opencv-4.6.0-7.eln121"
     },
     "pcp": {
         "name": "pcp",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAIL - parser-ragel.rl:41:57: error: macro ALLOC_CHECK requires 3 arguments, but only 1 givens",
         "nvr": "pcp-6.0.0-1.eln121"
     },
     "petsc": {
         "name": "petsc",
         "notes": "2022-10-06 NEW",
         "nvr": "petsc-3.17.4-3.eln121"
-    },
-    "pim-data-exporter": {
-        "name": "pim-data-exporter",
-        "notes": "2022-10-06 NEW",
-        "nvr": "pim-data-exporter-22.08.1-1.eln121"
-    },
-    "pim-sieve-editor": {
-        "name": "pim-sieve-editor",
-        "notes": "2022-10-06 NEW",
-        "nvr": "pim-sieve-editor-22.08.1-1.eln121"
     },
     "plasma-nm": {
         "name": "plasma-nm",
@@ -414,49 +374,39 @@
         "notes": "2022-10-06 BUILD FAIL - drvpptx.cpp:1335:8: error: 'unique_ptr' is not a member of 'std'",
         "nvr": "pstoedit-3.78-5.eln120"
     },
-    "python-contourpy": {
-        "name": "python-contourpy",
-        "notes": "2022-10-06 NEW",
-        "nvr": "python-contourpy-1.0.5-1.eln121"
-    },
     "python-dcrpm": {
         "name": "python-dcrpm",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAIL - fails in %check",
         "nvr": "python-dcrpm-0.6.3-4.eln120"
     },
     "python-fastjsonschema": {
         "name": "python-fastjsonschema",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06  BUILD FAIL - fails in %check",
         "nvr": "python-fastjsonschema-2.16.1-1.eln120"
-    },
-    "python-google-auth": {
-        "name": "python-google-auth",
-        "notes": "2022-10-06 NEW",
-        "nvr": "python-google-auth-2.12.0-1.eln121"
     },
     "python-oauthlib": {
         "name": "python-oauthlib",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAIL - fails in %check",
         "nvr": "python-oauthlib-3.2.1-1.eln121"
     },
     "python-qrcode": {
         "name": "python-qrcode",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06  BUILD FAIL - fails in %check",
         "nvr": "python-qrcode-7.3.1-6.eln120"
     },
     "python-redis": {
         "name": "python-redis",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06  BUILD FAIL - fails in %check",
         "nvr": "python-redis-4.3.4-1.eln121"
     },
     "python-sphinx-bootstrap-theme": {
         "name": "python-sphinx-bootstrap-theme",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 DEPS - SPEC - No matching package to install: 'epel-rpm-macros'",
         "nvr": "python-sphinx-bootstrap-theme-0.8.1-3.eln120"
     },
     "python-sqlalchemy": {
         "name": "python-sqlalchemy",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAIL - fails in %check",
         "nvr": "python-sqlalchemy-1.4.41-1.eln121"
     },
     "python2.7": {
@@ -494,84 +444,19 @@
         "notes": "2022-10-06 NEED ELN ONLY BRANCH",
         "nvr": "ruby-3.1.2-169.eln121"
     },
-    "rubygem-actioncable": {
-        "name": "rubygem-actioncable",
-        "notes": "2022-10-06 NEW",
-        "nvr": "rubygem-actioncable-7.0.4-1.eln121"
-    },
-    "rubygem-actionmailbox": {
-        "name": "rubygem-actionmailbox",
-        "notes": "2022-10-06 NEW",
-        "nvr": "rubygem-actionmailbox-7.0.4-1.eln121"
-    },
-    "rubygem-actionmailer": {
-        "name": "rubygem-actionmailer",
-        "notes": "2022-10-06 NEW",
-        "nvr": "rubygem-actionmailer-7.0.4-1.eln121"
-    },
-    "rubygem-actionpack": {
-        "name": "rubygem-actionpack",
-        "notes": "2022-10-06 NEW",
-        "nvr": "rubygem-actionpack-7.0.4-1.eln121"
-    },
-    "rubygem-actiontext": {
-        "name": "rubygem-actiontext",
-        "notes": "2022-10-06 NEW",
-        "nvr": "rubygem-actiontext-7.0.4-1.eln121"
-    },
-    "rubygem-actionview": {
-        "name": "rubygem-actionview",
-        "notes": "2022-10-06 NEW",
-        "nvr": "rubygem-actionview-7.0.4-1.eln121"
-    },
-    "rubygem-activejob": {
-        "name": "rubygem-activejob",
-        "notes": "2022-10-06 NEW",
-        "nvr": "rubygem-activejob-7.0.4-1.eln121"
-    },
-    "rubygem-activemodel": {
-        "name": "rubygem-activemodel",
-        "notes": "2022-10-06 NEW",
-        "nvr": "rubygem-activemodel-7.0.4-1.eln121"
-    },
-    "rubygem-activerecord": {
-        "name": "rubygem-activerecord",
-        "notes": "2022-10-06 NEW",
-        "nvr": "rubygem-activerecord-7.0.4-1.eln121"
-    },
-    "rubygem-activestorage": {
-        "name": "rubygem-activestorage",
-        "notes": "2022-10-06 NEW",
-        "nvr": "rubygem-activestorage-7.0.4-1.eln121"
-    },
-    "rubygem-railties": {
-        "name": "rubygem-railties",
-        "notes": "2022-10-06 NEW",
-        "nvr": "rubygem-railties-7.0.4-1.eln121"
-    },
-    "rubygem-rspec-core": {
-        "name": "rubygem-rspec-core",
-        "notes": "2022-10-06 NEW",
-        "nvr": "rubygem-rspec-core-3.11.0-3.eln121"
-    },
     "rubygem-rspec-its": {
         "name": "rubygem-rspec-its",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 BUILD FAIL - fails in %check",
         "nvr": "rubygem-rspec-its-1.3.0-9.eln120"
-    },
-    "rubygem-rspec-mocks": {
-        "name": "rubygem-rspec-mocks",
-        "notes": "2022-10-06 NEW",
-        "nvr": "rubygem-rspec-mocks-3.11.1-2.eln121"
     },
     "rubygem-sassc-rails": {
         "name": "rubygem-sassc-rails",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "rubygem-sassc-rails-2.1.2-4.eln120"
     },
     "rubygem-test-unit-rr": {
         "name": "rubygem-test-unit-rr",
-        "notes": "2022-10-06 NEW",
+        "notes": "2022-10-06 DEPS - SPEC ??? - No matching package to install: 'ruby(abi) = 1.9.1'",
         "nvr": "rubygem-test-unit-rr-1.0.5-14.eln120"
     },
     "runc": {
