@@ -1,0 +1,762 @@
+{
+    "akonadi-import-wizard": {
+        "name": "akonadi-import-wizard",
+        "notes": "2022-10-06 NEW",
+        "nvr": "akonadi-import-wizard-22.08.1-1.eln121"
+    },
+    "akonadiconsole": {
+        "name": "akonadiconsole",
+        "notes": "2022-10-06 NEW",
+        "nvr": "akonadiconsole-22.08.1-1.eln121"
+    },
+    "akregator": {
+        "name": "akregator",
+        "notes": "2022-10-06 NEW",
+        "nvr": "akregator-22.08.1-1.eln121"
+    },
+    "argparse-manpage": {
+        "name": "argparse-manpage",
+        "notes": "2022-10-06 NEW",
+        "nvr": "argparse-manpage-3-3.eln120"
+    },
+    "booth": {
+        "name": "booth",
+        "notes": "2022-10-06 NEW",
+        "nvr": "booth-1.0-272.1.7acb757.git.eln121"
+    },
+    "bpftrace": {
+        "name": "bpftrace",
+        "notes": "2022-10-06 NEW",
+        "nvr": "bpftrace-0.16.0-3.eln121"
+    },
+    "btrfs-fuse": {
+        "name": "btrfs-fuse",
+        "notes": "2022-10-06 NEW",
+        "nvr": "btrfs-fuse-0-8.20220301gitca53ed5.eln120"
+    },
+    "buildah": {
+        "name": "buildah",
+        "notes": "2022-10-06 NEW",
+        "nvr": "buildah-1.28.0-1.eln121"
+    },
+    "cjose": {
+        "name": "cjose",
+        "notes": "2022-10-06 NEW",
+        "nvr": "cjose-0.6.1-10.eln120"
+    },
+    "coffee-script": {
+        "name": "coffee-script",
+        "notes": "2022-10-06 NEW",
+        "nvr": "coffee-script-1.10.0-18.eln120"
+    },
+    "community-mysql": {
+        "name": "community-mysql",
+        "notes": "2022-10-06 NEW",
+        "nvr": "community-mysql-8.0.30-2.eln121"
+    },
+    "compiler-rt": {
+        "name": "compiler-rt",
+        "notes": "2022-10-06 NEW",
+        "nvr": "compiler-rt-15.0.0-2.eln121"
+    },
+    "containernetworking-plugins": {
+        "name": "containernetworking-plugins",
+        "notes": "2022-10-06 NEW",
+        "nvr": "containernetworking-plugins-1.1.1-8.eln121"
+    },
+    "crun": {
+        "name": "crun",
+        "notes": "2022-10-06 NEW",
+        "nvr": "crun-1.6-3.eln121"
+    },
+    "dotnet6.0": {
+        "name": "dotnet6.0",
+        "notes": "2022-10-06 NEW",
+        "nvr": "dotnet6.0-6.0.108-2.eln121"
+    },
+    "enchant2": {
+        "name": "enchant2",
+        "notes": "2022-10-06 BUILD FAIL - SPEC - File not found: /builddir/build/BUILDROOT/enchant2-2.3.3-2.eln122.x86_64/usr/i686-w64-mingw32/sys-root/mingw/lib/enchant-2/enchant_nuspell.dll",
+        "nvr": "enchant2-2.3.3-1.eln121"
+    },
+    "etcd": {
+        "name": "etcd",
+        "notes": "2022-10-06 FAILS in rawhide",
+        "nvr": "etcd-3.5.0-4.eln120"
+    },
+    "firefox": {
+        "name": "firefox",
+        "notes": "2022-10-06 NEW",
+        "nvr": "firefox-105.0.1-2.eln121"
+    },
+    "gdal": {
+        "name": "gdal",
+        "notes": "2022-10-06 NEW",
+        "nvr": "gdal-3.5.2-1.eln121"
+    },
+    "gnome-initial-setup": {
+        "name": "gnome-initial-setup",
+        "notes": "2022-10-06 BUILD FAIL - /usr/bin/ld: /usr/lib64/libgtk-4.so: undefined reference to `sysprof_clock'",
+        "nvr": "gnome-initial-setup-43.0-3.eln121"
+    },
+    "gnome-logs": {
+        "name": "gnome-logs",
+        "notes": "2022-10-06 BUILD FAIL - /usr/bin/ld: /usr/lib64/libgtk-4.so: undefined reference to `sysprof_clock'",
+        "nvr": "gnome-logs-43.0-1.eln121"
+    },
+    "gnome-remote-desktop": {
+        "name": "gnome-remote-desktop",
+        "notes": "2022-10-06 BUILD FAIL - SPEC - ERROR: Problem encountered: Support for audio output redirection using FDK AAC requires the RDP backend",
+        "nvr": "gnome-remote-desktop-43.0-1.eln121"
+    },
+    "gnome-shell": {
+        "name": "gnome-shell",
+        "notes": "2022-10-06 BUILD FAIL - /usr/bin/ld: /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/libgtk-4.so: undefined reference to `sysprof_clock'",
+        "nvr": "gnome-shell-43.0-2.eln121"
+    },
+    "golang-code-cloudfoundry-bytefmt": {
+        "name": "golang-code-cloudfoundry-bytefmt",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-code-cloudfoundry-bytefmt-0-0.9.20210114gitcf55d52.eln120"
+    },
+    "golang-code-cloudfoundry-clock": {
+        "name": "golang-code-cloudfoundry-clock",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-code-cloudfoundry-clock-1.0.0-5.eln120"
+    },
+    "golang-contrib-opencensus-exporter-stackdriver": {
+        "name": "golang-contrib-opencensus-exporter-stackdriver",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-contrib-opencensus-exporter-stackdriver-0.13.13-1.eln121"
+    },
+    "golang-github-aws-sdk-2": {
+        "name": "golang-github-aws-sdk-2",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-aws-sdk-2-1.8.0-1.eln120"
+    },
+    "golang-github-azure-sdk": {
+        "name": "golang-github-azure-sdk",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-azure-sdk-55.0.0-2.eln120"
+    },
+    "golang-github-cockroachdb-sentry": {
+        "name": "golang-github-cockroachdb-sentry",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-cockroachdb-sentry-0.6.1-3.eln120"
+    },
+    "golang-github-d2g-dhcp4client": {
+        "name": "golang-github-d2g-dhcp4client",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-d2g-dhcp4client-1.0.0-8.eln120"
+    },
+    "golang-github-dennwc-varint": {
+        "name": "golang-github-dennwc-varint",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-dennwc-varint-1.0.0-2.eln120"
+    },
+    "golang-github-distribution-3": {
+        "name": "golang-github-distribution-3",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-distribution-3-2.8.0~beta.1-4.20220203gitb609265.eln121"
+    },
+    "golang-github-docker": {
+        "name": "golang-github-docker",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-docker-20.10.12-1.eln120"
+    },
+    "golang-github-docker-swarmkit": {
+        "name": "golang-github-docker-swarmkit",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-docker-swarmkit-1.12.0-20.20210420git17d8d4e.eln120"
+    },
+    "golang-github-envoyproxy-control-plane": {
+        "name": "golang-github-envoyproxy-control-plane",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-envoyproxy-control-plane-0.10.3-2.eln121"
+    },
+    "golang-github-gin-gonic": {
+        "name": "golang-github-gin-gonic",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-gin-gonic-1.6.3-3.eln120"
+    },
+    "golang-github-gobuffalo-packr": {
+        "name": "golang-github-gobuffalo-packr",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-gobuffalo-packr-2.8.1-3.eln120"
+    },
+    "golang-github-google-certificate-transparency": {
+        "name": "golang-github-google-certificate-transparency",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-google-certificate-transparency-1.1.3-2.eln121"
+    },
+    "golang-github-grpc-ecosystem-gateway": {
+        "name": "golang-github-grpc-ecosystem-gateway",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-grpc-ecosystem-gateway-1.16.0-3.eln120"
+    },
+    "golang-github-grpc-ecosystem-middleware": {
+        "name": "golang-github-grpc-ecosystem-middleware",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-grpc-ecosystem-middleware-1.3.0-1.eln120"
+    },
+    "golang-github-influxdata-influxdb1-client": {
+        "name": "golang-github-influxdata-influxdb1-client",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-influxdata-influxdb1-client-0-0.8.20210109gitb269163.eln120"
+    },
+    "golang-github-jbenet-context": {
+        "name": "golang-github-jbenet-context",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-jbenet-context-0-0.13.20180402gitd14ea06.eln120"
+    },
+    "golang-github-macaron-inject": {
+        "name": "golang-github-macaron-inject",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-macaron-inject-0-0.16.20210110git138e592.eln120"
+    },
+    "golang-github-moby-spdystream": {
+        "name": "golang-github-moby-spdystream",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-moby-spdystream-0.2.0-2.eln120"
+    },
+    "golang-github-mwitkow-conntrack": {
+        "name": "golang-github-mwitkow-conntrack",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-mwitkow-conntrack-0-0.10.20200729git2f06839.eln121"
+    },
+    "golang-github-prometheus": {
+        "name": "golang-github-prometheus",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-prometheus-2.32.1-9.eln121"
+    },
+    "golang-github-prometheus-alertmanager": {
+        "name": "golang-github-prometheus-alertmanager",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-prometheus-alertmanager-0.23.0-9.eln120"
+    },
+    "golang-github-prometheus-exporter-toolkit": {
+        "name": "golang-github-prometheus-exporter-toolkit",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-prometheus-exporter-toolkit-0.6.1-3.eln120"
+    },
+    "golang-github-rogpeppe-charset": {
+        "name": "golang-github-rogpeppe-charset",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-rogpeppe-charset-0-0.8.20210110git0dc95cd.eln120"
+    },
+    "golang-github-stretchr-objx": {
+        "name": "golang-github-stretchr-objx",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-stretchr-objx-0.3.0-4.eln120"
+    },
+    "golang-github-tj-buffer": {
+        "name": "golang-github-tj-buffer",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-tj-buffer-1.2.0-2.eln120"
+    },
+    "golang-github-tklauser-sysconf": {
+        "name": "golang-github-tklauser-sysconf",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-tklauser-sysconf-0.3.7-2.eln120"
+    },
+    "golang-github-ugorji": {
+        "name": "golang-github-ugorji",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-ugorji-1.2.3-3.eln120"
+    },
+    "golang-github-yvasiyarov-metrics": {
+        "name": "golang-github-yvasiyarov-metrics",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-yvasiyarov-metrics-0-0.16.20190626gitc25f46c.eln120"
+    },
+    "golang-github-zmap-zcertificate": {
+        "name": "golang-github-zmap-zcertificate",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-github-zmap-zcertificate-0.0.1-4.eln120"
+    },
+    "golang-gopkg-errgo-2": {
+        "name": "golang-gopkg-errgo-2",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-gopkg-errgo-2-2.1.0-7.eln120"
+    },
+    "golang-gopkg-tomb-1": {
+        "name": "golang-gopkg-tomb-1",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-gopkg-tomb-1-1-8.20190623gitdd63297.eln120"
+    },
+    "golang-gopkg-tomb-2": {
+        "name": "golang-gopkg-tomb-2",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-gopkg-tomb-2-2-8.20190623gitd5d1b58.eln120"
+    },
+    "golang-k8s-apimachinery": {
+        "name": "golang-k8s-apimachinery",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-k8s-apimachinery-1.22.0-5.eln121"
+    },
+    "golang-mozilla-pkcs7": {
+        "name": "golang-mozilla-pkcs7",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-mozilla-pkcs7-0-0.6.20220831git33d0574.eln121"
+    },
+    "golang-sigs-k8s-apiserver-network-proxy": {
+        "name": "golang-sigs-k8s-apiserver-network-proxy",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-sigs-k8s-apiserver-network-proxy-0.0.24-4.eln121"
+    },
+    "golang-x-time": {
+        "name": "golang-x-time",
+        "notes": "2022-10-06 NEW",
+        "nvr": "golang-x-time-0-0.24.20210123git7e3f01d.eln121"
+    },
+    "google-gson": {
+        "name": "google-gson",
+        "notes": "2022-10-06 DEPS FAIL - SPEC -  No matching package to install: 'bnd-maven-plugin'",
+        "nvr": "google-gson-2.9.1-1.eln121"
+    },
+    "google-noto-fonts": {
+        "name": "google-noto-fonts",
+        "notes": "2022-10-06 BUILD FAILED - Can't figure out why",
+        "nvr": "google-noto-fonts-20201206^1.git0c78c8329-5.eln121"
+    },
+    "grafana": {
+        "name": "grafana",
+        "notes": "2022-10-06 NEW",
+        "nvr": "grafana-9.0.9-1.eln121"
+    },
+    "grantlee-editor": {
+        "name": "grantlee-editor",
+        "notes": "2022-10-06 NEW",
+        "nvr": "grantlee-editor-22.08.1-1.eln121"
+    },
+    "graphviz": {
+        "name": "graphviz",
+        "notes": "2022-10-06 NEW",
+        "nvr": "graphviz-6.0.1-1.eln121"
+    },
+    "grub2": {
+        "name": "grub2",
+        "notes": "2022-10-06 NEW",
+        "nvr": "grub2-2.06-58.eln121"
+    },
+    "gstreamer1-plugins-bad-free": {
+        "name": "gstreamer1-plugins-bad-free",
+        "notes": "2022-10-06 NEW",
+        "nvr": "gstreamer1-plugins-bad-free-1.20.3-2.eln120"
+    },
+    "gstreamer1-plugins-good": {
+        "name": "gstreamer1-plugins-good",
+        "notes": "2022-10-06 NEW",
+        "nvr": "gstreamer1-plugins-good-1.20.3-3.eln121"
+    },
+    "guestfs-tools": {
+        "name": "guestfs-tools",
+        "notes": "2022-10-06 NEW",
+        "nvr": "guestfs-tools-1.49.3-2.eln121"
+    },
+    "hdf": {
+        "name": "hdf",
+        "notes": "2022-10-06 NEW",
+        "nvr": "hdf-4.2.15-11.eln120"
+    },
+    "hdf5": {
+        "name": "hdf5",
+        "notes": "2022-10-06 NEW",
+        "nvr": "hdf5-1.12.1-10.eln120"
+    },
+    "hivex": {
+        "name": "hivex",
+        "notes": "2022-10-06 NEW",
+        "nvr": "hivex-1.3.21-11.eln120"
+    },
+    "htop": {
+        "name": "htop",
+        "notes": "2022-10-06 NEW",
+        "nvr": "htop-3.2.1-2.eln120"
+    },
+    "kaddressbook": {
+        "name": "kaddressbook",
+        "notes": "2022-10-06 NEW",
+        "nvr": "kaddressbook-22.08.1-1.eln121"
+    },
+    "kalarm": {
+        "name": "kalarm",
+        "notes": "2022-10-06 NEW",
+        "nvr": "kalarm-22.08.1-1.eln121"
+    },
+    "kdepim-addons": {
+        "name": "kdepim-addons",
+        "notes": "2022-10-06 NEW",
+        "nvr": "kdepim-addons-22.08.1-1.eln121"
+    },
+    "keylime-agent-rust": {
+        "name": "keylime-agent-rust",
+        "notes": "2022-10-06 NEW",
+        "nvr": "keylime-agent-rust-0.1.0~20220603gitaed51c7-2.eln121"
+    },
+    "kf5-akonadi-contacts": {
+        "name": "kf5-akonadi-contacts",
+        "notes": "2022-10-06 NEW",
+        "nvr": "kf5-akonadi-contacts-22.08.1-1.eln121"
+    },
+    "kf5-kalarmcal": {
+        "name": "kf5-kalarmcal",
+        "notes": "2022-10-06 NEW",
+        "nvr": "kf5-kalarmcal-21.12.3-1.eln120"
+    },
+    "kf5-ktexteditor": {
+        "name": "kf5-ktexteditor",
+        "notes": "2022-10-06 NEW",
+        "nvr": "kf5-ktexteditor-5.98.0-1.eln121"
+    },
+    "kf5-kwallet": {
+        "name": "kf5-kwallet",
+        "notes": "2022-10-06 NEW",
+        "nvr": "kf5-kwallet-5.98.0-1.eln121"
+    },
+    "kf5-mailcommon": {
+        "name": "kf5-mailcommon",
+        "notes": "2022-10-06 NEW",
+        "nvr": "kf5-mailcommon-22.08.1-1.eln121"
+    },
+    "kf5-messagelib": {
+        "name": "kf5-messagelib",
+        "notes": "2022-10-06 NEW",
+        "nvr": "kf5-messagelib-22.08.1-1.eln121"
+    },
+    "kig": {
+        "name": "kig",
+        "notes": "2022-10-06 NEW",
+        "nvr": "kig-22.08.1-1.eln121"
+    },
+    "kleopatra": {
+        "name": "kleopatra",
+        "notes": "2022-10-06 NEW",
+        "nvr": "kleopatra-22.08.1-1.eln121"
+    },
+    "kmail": {
+        "name": "kmail",
+        "notes": "2022-10-06 NEW",
+        "nvr": "kmail-22.08.1-1.eln121"
+    },
+    "kmail-account-wizard": {
+        "name": "kmail-account-wizard",
+        "notes": "2022-10-06 NEW",
+        "nvr": "kmail-account-wizard-22.08.1-1.eln121"
+    },
+    "kontact": {
+        "name": "kontact",
+        "notes": "2022-10-06 NEW",
+        "nvr": "kontact-22.08.1-1.eln121"
+    },
+    "korganizer": {
+        "name": "korganizer",
+        "notes": "2022-10-06 NEW",
+        "nvr": "korganizer-22.08.1-1.eln121"
+    },
+    "libffi3.1": {
+        "name": "libffi3.1",
+        "notes": "2022-10-06 FAILS in rawhide",
+        "nvr": "libffi3.1-3.1-33.eln120"
+    },
+    "libfido2": {
+        "name": "libfido2",
+        "notes": "2022-10-06 BUILD FAIL - Fails on %check",
+        "nvr": "libfido2-1.12.0-1.eln121"
+    },
+    "libotr": {
+        "name": "libotr",
+        "notes": "2022-10-06 FAILS in rawhide",
+        "nvr": "libotr-4.1.1-14.eln120"
+    },
+    "libpsm2": {
+        "name": "libpsm2",
+        "notes": "2022-10-06 BUILD FAIL - SPEC - File not found: /builddir/build/BUILDROOT/libpsm2-11.2.229-1.eln122.x86_64/usr/lib/udev/rules.d/40-psm.rules",
+        "nvr": "libpsm2-11.2.206-3.eln121"
+    },
+    "libreoffice": {
+        "name": "libreoffice",
+        "notes": "2022-10-06 BUILD FAIL - s390x only - Fails a test",
+        "nvr": "libreoffice-7.4.0.2-3.eln121"
+    },
+    "llvm11": {
+        "name": "llvm11",
+        "notes": "2022-10-06 FAILS in rawhide",
+        "nvr": "llvm11-11.1.0-9.eln121"
+    },
+    "maven-scm": {
+        "name": "maven-scm",
+        "notes": "2022-10-06 FAILS in rawhide",
+        "nvr": "maven-scm-1.10.0-13.eln120"
+    },
+    "mbox-importer": {
+        "name": "mbox-importer",
+        "notes": "2022-10-06 NEW",
+        "nvr": "mbox-importer-22.08.1-1.eln121"
+    },
+    "mozjs102": {
+        "name": "mozjs102",
+        "notes": "2022-10-06 BUILD FAIL - LLVM - /usr/bin/clang++: symbol lookup error: /lib64/libclang-cpp.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
+        "nvr": "mozjs102-102.3.0-1.eln121"
+    },
+    "netavark": {
+        "name": "netavark",
+        "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
+        "nvr": "netavark-1.2.0-2.eln121"
+    },
+    "opencv": {
+        "name": "opencv",
+        "notes": "2022-10-06 NEW",
+        "nvr": "opencv-4.6.0-7.eln121"
+    },
+    "pcp": {
+        "name": "pcp",
+        "notes": "2022-10-06 NEW",
+        "nvr": "pcp-6.0.0-1.eln121"
+    },
+    "petsc": {
+        "name": "petsc",
+        "notes": "2022-10-06 NEW",
+        "nvr": "petsc-3.17.4-3.eln121"
+    },
+    "pim-data-exporter": {
+        "name": "pim-data-exporter",
+        "notes": "2022-10-06 NEW",
+        "nvr": "pim-data-exporter-22.08.1-1.eln121"
+    },
+    "pim-sieve-editor": {
+        "name": "pim-sieve-editor",
+        "notes": "2022-10-06 NEW",
+        "nvr": "pim-sieve-editor-22.08.1-1.eln121"
+    },
+    "plasma-nm": {
+        "name": "plasma-nm",
+        "notes": "2022-10-06 NEW",
+        "nvr": "plasma-nm-5.25.90-1.eln121"
+    },
+    "pstoedit": {
+        "name": "pstoedit",
+        "notes": "2022-10-06 BUILD FAIL - drvpptx.cpp:1335:8: error: 'unique_ptr' is not a member of 'std'",
+        "nvr": "pstoedit-3.78-5.eln120"
+    },
+    "python-contourpy": {
+        "name": "python-contourpy",
+        "notes": "2022-10-06 NEW",
+        "nvr": "python-contourpy-1.0.5-1.eln121"
+    },
+    "python-dcrpm": {
+        "name": "python-dcrpm",
+        "notes": "2022-10-06 NEW",
+        "nvr": "python-dcrpm-0.6.3-4.eln120"
+    },
+    "python-fastjsonschema": {
+        "name": "python-fastjsonschema",
+        "notes": "2022-10-06 NEW",
+        "nvr": "python-fastjsonschema-2.16.1-1.eln120"
+    },
+    "python-google-auth": {
+        "name": "python-google-auth",
+        "notes": "2022-10-06 NEW",
+        "nvr": "python-google-auth-2.12.0-1.eln121"
+    },
+    "python-oauthlib": {
+        "name": "python-oauthlib",
+        "notes": "2022-10-06 NEW",
+        "nvr": "python-oauthlib-3.2.1-1.eln121"
+    },
+    "python-qrcode": {
+        "name": "python-qrcode",
+        "notes": "2022-10-06 NEW",
+        "nvr": "python-qrcode-7.3.1-6.eln120"
+    },
+    "python-redis": {
+        "name": "python-redis",
+        "notes": "2022-10-06 NEW",
+        "nvr": "python-redis-4.3.4-1.eln121"
+    },
+    "python-sphinx-bootstrap-theme": {
+        "name": "python-sphinx-bootstrap-theme",
+        "notes": "2022-10-06 NEW",
+        "nvr": "python-sphinx-bootstrap-theme-0.8.1-3.eln120"
+    },
+    "python-sqlalchemy": {
+        "name": "python-sqlalchemy",
+        "notes": "2022-10-06 NEW",
+        "nvr": "python-sqlalchemy-1.4.41-1.eln121"
+    },
+    "python2.7": {
+        "name": "python2.7",
+        "notes": "2022-10-06 NEW",
+        "nvr": "python2.7-2.7.18-25.eln121"
+    },
+    "qt-creator": {
+        "name": "qt-creator",
+        "notes": "2022-10-06 BUILD FAIL - LLVM symbol lookup error: /lib64/libclang.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
+        "nvr": "qt-creator-8.0.1-5.eln121"
+    },
+    "qt5-qtdoc": {
+        "name": "qt5-qtdoc",
+        "notes": "2022-10-06 BUILD FAIL - LLVM - /../lib64/qt5/bin/qdoc: symbol lookup error: /lib64/libclang.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
+        "nvr": "qt5-qtdoc-5.15.6-1.eln121"
+    },
+    "qt5-qttools": {
+        "name": "qt5-qttools",
+        "notes": "2022-10-06 BUILD FAIL - LLVM - /usr/bin/ld: /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/libclang.so: undefined reference to `LLVMInitializeMSP430AsmPrinter@LLVM_15'",
+        "nvr": "qt5-qttools-5.15.6-1.eln121"
+    },
+    "qt6-qttools": {
+        "name": "qt6-qttools",
+        "notes": "2022-10-06 NEW",
+        "nvr": "qt6-qttools-6.3.1-3.eln121"
+    },
+    "rsyslog": {
+        "name": "rsyslog",
+        "notes": "2022-10-06 BUILD FAIL - SPEC - configure: error: libdbi is missing -  enables libdbi for all, but does not install it for RHEL",
+        "nvr": "rsyslog-8.2204.0-2.eln120"
+    },
+    "ruby": {
+        "name": "ruby",
+        "notes": "2022-10-06 NEED ELN ONLY BRANCH",
+        "nvr": "ruby-3.1.2-169.eln121"
+    },
+    "rubygem-actioncable": {
+        "name": "rubygem-actioncable",
+        "notes": "2022-10-06 NEW",
+        "nvr": "rubygem-actioncable-7.0.4-1.eln121"
+    },
+    "rubygem-actionmailbox": {
+        "name": "rubygem-actionmailbox",
+        "notes": "2022-10-06 NEW",
+        "nvr": "rubygem-actionmailbox-7.0.4-1.eln121"
+    },
+    "rubygem-actionmailer": {
+        "name": "rubygem-actionmailer",
+        "notes": "2022-10-06 NEW",
+        "nvr": "rubygem-actionmailer-7.0.4-1.eln121"
+    },
+    "rubygem-actionpack": {
+        "name": "rubygem-actionpack",
+        "notes": "2022-10-06 NEW",
+        "nvr": "rubygem-actionpack-7.0.4-1.eln121"
+    },
+    "rubygem-actiontext": {
+        "name": "rubygem-actiontext",
+        "notes": "2022-10-06 NEW",
+        "nvr": "rubygem-actiontext-7.0.4-1.eln121"
+    },
+    "rubygem-actionview": {
+        "name": "rubygem-actionview",
+        "notes": "2022-10-06 NEW",
+        "nvr": "rubygem-actionview-7.0.4-1.eln121"
+    },
+    "rubygem-activejob": {
+        "name": "rubygem-activejob",
+        "notes": "2022-10-06 NEW",
+        "nvr": "rubygem-activejob-7.0.4-1.eln121"
+    },
+    "rubygem-activemodel": {
+        "name": "rubygem-activemodel",
+        "notes": "2022-10-06 NEW",
+        "nvr": "rubygem-activemodel-7.0.4-1.eln121"
+    },
+    "rubygem-activerecord": {
+        "name": "rubygem-activerecord",
+        "notes": "2022-10-06 NEW",
+        "nvr": "rubygem-activerecord-7.0.4-1.eln121"
+    },
+    "rubygem-activestorage": {
+        "name": "rubygem-activestorage",
+        "notes": "2022-10-06 NEW",
+        "nvr": "rubygem-activestorage-7.0.4-1.eln121"
+    },
+    "rubygem-railties": {
+        "name": "rubygem-railties",
+        "notes": "2022-10-06 NEW",
+        "nvr": "rubygem-railties-7.0.4-1.eln121"
+    },
+    "rubygem-rspec-core": {
+        "name": "rubygem-rspec-core",
+        "notes": "2022-10-06 NEW",
+        "nvr": "rubygem-rspec-core-3.11.0-3.eln121"
+    },
+    "rubygem-rspec-its": {
+        "name": "rubygem-rspec-its",
+        "notes": "2022-10-06 NEW",
+        "nvr": "rubygem-rspec-its-1.3.0-9.eln120"
+    },
+    "rubygem-rspec-mocks": {
+        "name": "rubygem-rspec-mocks",
+        "notes": "2022-10-06 NEW",
+        "nvr": "rubygem-rspec-mocks-3.11.1-2.eln121"
+    },
+    "rubygem-sassc-rails": {
+        "name": "rubygem-sassc-rails",
+        "notes": "2022-10-06 NEW",
+        "nvr": "rubygem-sassc-rails-2.1.2-4.eln120"
+    },
+    "rubygem-test-unit-rr": {
+        "name": "rubygem-test-unit-rr",
+        "notes": "2022-10-06 NEW",
+        "nvr": "rubygem-test-unit-rr-1.0.5-14.eln120"
+    },
+    "runc": {
+        "name": "runc",
+        "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
+        "nvr": "runc-1.1.2-4.eln121"
+    },
+    "rust-coreos-installer": {
+        "name": "rust-coreos-installer",
+        "notes": "2022-10-06 BAD DEPS - nothing provides crate(clap_derive/default) = 3.2.17 needed by rust-clap+clap_derive-devel-3.2.17-1.eln121.noarch",
+        "nvr": "rust-coreos-installer-0.16.0-1.eln121"
+    },
+    "scap-security-guide": {
+        "name": "scap-security-guide",
+        "notes": "2022-10-06 BUILD FAIL - SPEC - error: File not found: /builddir/build/BUILDROOT/scap-security-guide-0.1.63-1.eln121.noarch/usr/share/xml/scap/ssg/content",
+        "nvr": "scap-security-guide-0.1.62-3.eln121"
+    },
+    "slirp4netns": {
+        "name": "slirp4netns",
+        "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
+        "nvr": "slirp4netns-1.2.0-5.eln121"
+    },
+    "strace": {
+        "name": "strace",
+        "notes": "2022-10-06 FAILS in rawhide",
+        "nvr": "strace-5.18-2.eln121"
+    },
+    "swift-lang": {
+        "name": "swift-lang",
+        "notes": "2022-10-06 BUILD FAIL - LLVM - /usr/bin/clang++: symbol lookup error: /lib64/libclang-cpp.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
+        "nvr": "swift-lang-5.7-3.eln121"
+    },
+    "texlive-base": {
+        "name": "texlive-base",
+        "notes": "2022-10-06 BUILD FAIL - checking requested system `xpdf' library... failed",
+        "nvr": "texlive-base-20210325-49.eln121"
+    },
+    "unbound": {
+        "name": "unbound",
+        "notes": "2022-10-06 BUILD FAIL - assertion failure testcode/unitverify.c:199",
+        "nvr": "unbound-1.16.3-2.eln121"
+    },
+    "xdp-tools": {
+        "name": "xdp-tools",
+        "notes": "2022-10-06 BUILD FAIL - LLVM - /usr/bin/clang: symbol lookup error: /lib64/libclang-cpp.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
+        "nvr": "xdp-tools-1.2.8-1.eln121"
+    },
+    "xmlrpc-c": {
+        "name": "xmlrpc-c",
+        "notes": "2022-10-06 FAILS in rawhide",
+        "nvr": "xmlrpc-c-1.51.0-15.eln120"
+    },
+    "xorg-x11-drv-vmware": {
+        "name": "xorg-x11-drv-vmware",
+        "notes": "2022-10-06 FAILS in rawhide",
+        "nvr": "xorg-x11-drv-vmware-13.2.1-17.eln120"
+    },
+    "yarnpkg": {
+        "name": "yarnpkg",
+        "notes": "2022-10-06 FAILS in rawhide",
+        "nvr": "yarnpkg-1.22.17-2.eln120"
+    }
+}
