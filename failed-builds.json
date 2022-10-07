@@ -409,20 +409,10 @@
         "notes": "2022-10-06 NEW",
         "nvr": "kf5-ktexteditor-5.98.0-1.eln121"
     },
-    "kf5-kwallet": {
-        "name": "kf5-kwallet",
-        "notes": "2022-10-06 NEW",
-        "nvr": "kf5-kwallet-5.98.0-1.eln121"
-    },
     "kf5-mailcommon": {
         "name": "kf5-mailcommon",
         "notes": "2022-10-06 NEW",
         "nvr": "kf5-mailcommon-22.08.1-1.eln121"
-    },
-    "kf5-messagelib": {
-        "name": "kf5-messagelib",
-        "notes": "2022-10-06 NEW",
-        "nvr": "kf5-messagelib-22.08.1-1.eln121"
     },
     "kig": {
         "name": "kig",
