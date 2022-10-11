@@ -85,7 +85,7 @@ for json_entry in status_data:
         try:
           this_failure['notes'] = old_data[json_entry]['notes']
         except:
-          this_failure['notes'] = "NEW " + TODAY
+          this_failure['notes'] = TODAY + " NEW"
           print("  NEW " + json_entry)
         checked_failures[json_entry] = this_failure
   except TypeError:
