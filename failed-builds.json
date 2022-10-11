@@ -1,13 +1,18 @@
 {
+    "annobin": {
+        "name": "annobin",
+        "notes": "2022-10-11 BUILD FAIL - LLVM - clang++: symbol lookup error: /lib64/libclang-cpp.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
+        "nvr": "annobin-10.88-1.eln122"
+    },
     "argparse-manpage": {
         "name": "argparse-manpage",
         "notes": "2022-10-06 BUILD FAIL - Fails in %check",
-        "nvr": "argparse-manpage-3-3.eln120"
+        "nvr": "argparse-manpage-3-4.eln122"
     },
     "bpftrace": {
         "name": "bpftrace",
         "notes": "2022-10-06 BUILD FAIL - /builddir/build/BUILD/bpftrace-0.16.0/src/bpftrace.cpp:2042:20: error: 'istream_iterator' is not a member of 'std'",
-        "nvr": "bpftrace-0.16.0-3.eln121"
+        "nvr": "bpftrace-0.16.0-3.eln122"
     },
     "btrfs-fuse": {
         "name": "btrfs-fuse",
@@ -17,12 +22,17 @@
     "buildah": {
         "name": "buildah",
         "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
-        "nvr": "buildah-1.28.0-1.eln121"
+        "nvr": "buildah-1.28.0-5.eln122"
     },
     "cjose": {
         "name": "cjose",
         "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "cjose-0.6.1-10.eln120"
+    },
+    "clang": {
+        "name": "clang",
+        "notes": "2022-10-11 BUILD FAIL - LLVM - /usr/bin/clang: symbol lookup error: /lib64/libclang-cpp.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
+        "nvr": "clang-15.0.0-4.eln122"
     },
     "coffee-script": {
         "name": "coffee-script",
@@ -37,22 +47,22 @@
     "containernetworking-plugins": {
         "name": "containernetworking-plugins",
         "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
-        "nvr": "containernetworking-plugins-1.1.1-8.eln121"
+        "nvr": "containernetworking-plugins-1.1.1-12.eln122"
     },
     "crun": {
         "name": "crun",
         "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
-        "nvr": "crun-1.6-3.eln121"
+        "nvr": "crun-1.6-5.eln122"
     },
     "dotnet6.0": {
         "name": "dotnet6.0",
         "notes": "2022-10-06 BUILD FAIL - Many errors, cannot figure out problem",
-        "nvr": "dotnet6.0-6.0.108-2.eln121"
+        "nvr": "dotnet6.0-6.0.108-3.eln122"
     },
     "enchant2": {
         "name": "enchant2",
         "notes": "2022-10-06 BUILD FAIL - SPEC - File not found: /builddir/build/BUILDROOT/enchant2-2.3.3-2.eln122.x86_64/usr/i686-w64-mingw32/sys-root/mingw/lib/enchant-2/enchant_nuspell.dll",
-        "nvr": "enchant2-2.3.3-1.eln121"
+        "nvr": "enchant2-2.3.3-2.eln122"
     },
     "etcd": {
         "name": "etcd",
@@ -78,11 +88,6 @@
         "name": "gnome-remote-desktop",
         "notes": "2022-10-06 BUILD FAIL - SPEC - ERROR: Problem encountered: Support for audio output redirection using FDK AAC requires the RDP backend",
         "nvr": "gnome-remote-desktop-43.0-1.eln121"
-    },
-    "gnome-shell": {
-        "name": "gnome-shell",
-        "notes": "2022-10-06 BUILD FAIL - /usr/bin/ld: /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/libgtk-4.so: undefined reference to `sysprof_clock'",
-        "nvr": "gnome-shell-43.0-2.eln121"
     },
     "golang-code-cloudfoundry-bytefmt": {
         "name": "golang-code-cloudfoundry-bytefmt",
@@ -179,11 +184,6 @@
         "notes": "2022-10-06 FIXED - SHOULD BE MARKED AS DONE - golang-github-prometheus-exporter-toolkit-0.6.1-5.eln121",
         "nvr": "golang-github-prometheus-exporter-toolkit-0.6.1-3.eln120"
     },
-    "golang-github-rogpeppe-charset": {
-        "name": "golang-github-rogpeppe-charset",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-rogpeppe-charset-0-0.8.20210110git0dc95cd.eln120"
-    },
     "golang-github-stretchr-objx": {
         "name": "golang-github-stretchr-objx",
         "notes": "2022-10-06 FAILS in rawhide",
@@ -232,12 +232,12 @@
     "golang-mozilla-pkcs7": {
         "name": "golang-mozilla-pkcs7",
         "notes": "2022-10-06 BUILD FAIL - Fails on %check",
-        "nvr": "golang-mozilla-pkcs7-0-0.6.20220831git33d0574.eln121"
+        "nvr": "golang-mozilla-pkcs7-0-0.6.20220831git33d0574.eln122"
     },
     "golang-sigs-k8s-apiserver-network-proxy": {
         "name": "golang-sigs-k8s-apiserver-network-proxy",
         "notes": "2022-10-06 BUILD FAILED - x86_64 only - fails in %check",
-        "nvr": "golang-sigs-k8s-apiserver-network-proxy-0.0.24-4.eln121"
+        "nvr": "golang-sigs-k8s-apiserver-network-proxy-0.0.24-4.eln122"
     },
     "golang-x-time": {
         "name": "golang-x-time",
@@ -247,7 +247,7 @@
     "google-gson": {
         "name": "google-gson",
         "notes": "2022-10-06 DEPS FAIL - SPEC -  No matching package to install: 'bnd-maven-plugin'",
-        "nvr": "google-gson-2.9.1-1.eln121"
+        "nvr": "google-gson-2.9.1-1.eln122"
     },
     "google-noto-fonts": {
         "name": "google-noto-fonts",
@@ -257,52 +257,47 @@
     "grafana": {
         "name": "grafana",
         "notes": "2022-10-06 BUILD FAIL - imports crypto/boring: build constraints exclude all Go files in /usr/lib/golang/src/crypto/boring",
-        "nvr": "grafana-9.0.9-1.eln121"
+        "nvr": "grafana-9.0.9-1.eln122"
     },
     "graphviz": {
         "name": "graphviz",
         "notes": "2022-10-06 BUILD FAIL - SPEC -  File not found: /builddir/build/BUILDROOT/graphviz-6.0.1-2.eln122.x86_64/usr/bin/smyrna",
-        "nvr": "graphviz-6.0.1-1.eln121"
-    },
-    "grub2": {
-        "name": "grub2",
-        "notes": "2022-10-06 PASSED - Needs to be tagged in",
-        "nvr": "grub2-2.06-58.eln121"
+        "nvr": "graphviz-6.0.1-2.eln122"
     },
     "gstreamer1-plugins-bad-free": {
         "name": "gstreamer1-plugins-bad-free",
         "notes": "2022-10-06 BUILD FAIL - meson.build:1:0: ERROR: Unknown options: vdpau",
-        "nvr": "gstreamer1-plugins-bad-free-1.20.3-2.eln120"
+        "nvr": "gstreamer1-plugins-bad-free-1.20.3-2.eln122"
     },
     "gstreamer1-plugins-good": {
         "name": "gstreamer1-plugins-good",
         "notes": "2022-10-06 BUILD FAIL - build config - tests/examples/jack/meson.build:1:15: ERROR: Unknown variable libjack_dep.",
-        "nvr": "gstreamer1-plugins-good-1.20.3-3.eln121"
+        "nvr": "gstreamer1-plugins-good-1.20.3-3.eln122"
     },
     "hdf": {
         "name": "hdf",
-        "notes": "2022-10-06 DEPS - nothing provides (java-headless or java-11-headless or java-1.8.0-headless) needed by hamcrest-2.2-8.eln121.noarch",
-        "nvr": "hdf-4.2.15-11.eln120"
+        "notes": "2022-10-06 DEPS - i686 ONLY - nothing provides (java-headless or java-11-headless or java-1.8.0-headless) needed by hamcrest-2.2-8.eln121.noarch - There is no openjdk on i686",
+        "nvr": "hdf-4.2.15-11.eln122"
     },
     "hdf5": {
         "name": "hdf5",
-        "notes": "2022-10-06 DEPS - nothing provides (java-headless or java-11-headless or java-1.8.0-headless) needed by hamcrest-2.2-8.eln121.noarch",
-        "nvr": "hdf5-1.12.1-10.eln120"
+        "notes": "2022-10-06 DEPS - i686 ONLY - nothing provides (java-headless or java-11-headless or java-1.8.0-headless) needed by hamcrest-2.2-8.eln121.noarch - There is no openjdk on i686",
+        "nvr": "hdf5-1.12.1-10.eln122"
     },
     "keylime-agent-rust": {
         "name": "keylime-agent-rust",
         "notes": "2022-10-06 BUILD FAIL - error: failed to select a version for the requirement `clap = ^3.1.18`",
-        "nvr": "keylime-agent-rust-0.1.0~20220603gitaed51c7-2.eln121"
+        "nvr": "keylime-agent-rust-0.1.0~20220603gitaed51c7-3.eln122"
     },
     "kf5-kalarmcal": {
         "name": "kf5-kalarmcal",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "kf5-kalarmcal-21.12.3-1.eln120"
+        "nvr": "kf5-kalarmcal-21.12.3-2.eln122"
     },
     "kig": {
         "name": "kig",
         "notes": "2022-10-06 BUILD FAIL - Not really sure why",
-        "nvr": "kig-22.08.1-1.eln121"
+        "nvr": "kig-22.08.1-1.eln122"
     },
     "libffi3.1": {
         "name": "libffi3.1",
@@ -322,12 +317,12 @@
     "libpsm2": {
         "name": "libpsm2",
         "notes": "2022-10-06 BUILD FAIL - SPEC - File not found: /builddir/build/BUILDROOT/libpsm2-11.2.229-1.eln122.x86_64/usr/lib/udev/rules.d/40-psm.rules",
-        "nvr": "libpsm2-11.2.206-3.eln121"
+        "nvr": "libpsm2-11.2.229-1.eln122"
     },
-    "libreoffice": {
-        "name": "libreoffice",
-        "notes": "2022-10-06 BUILD FAIL - s390x only - Fails a test",
-        "nvr": "libreoffice-7.4.0.2-3.eln121"
+    "lld": {
+        "name": "lld",
+        "notes": "2022-10-11 BUILD FAIL - LLVM - /usr/bin/clang: symbol lookup error: /lib64/libclang-cpp.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
+        "nvr": "lld-15.0.0-2.eln122"
     },
     "llvm11": {
         "name": "llvm11",
@@ -347,7 +342,12 @@
     "netavark": {
         "name": "netavark",
         "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
-        "nvr": "netavark-1.2.0-2.eln121"
+        "nvr": "netavark-1.2.0-7.eln122"
+    },
+    "oci-seccomp-bpf-hook": {
+        "name": "oci-seccomp-bpf-hook",
+        "notes": "2022-10-11 BUILD FAIL - LLVM - /usr/bin/ld: /usr/lib64/llvm14/lib/libclang-cpp.so.14: undefined reference to `LLVMInitializeVETarget@LLVM_14'",
+        "nvr": "oci-seccomp-bpf-hook-1.2.6-7.eln121"
     },
     "opencv": {
         "name": "opencv",
@@ -359,30 +359,25 @@
         "notes": "2022-10-06 BUILD FAIL - parser-ragel.rl:41:57: error: macro ALLOC_CHECK requires 3 arguments, but only 1 givens",
         "nvr": "pcp-6.0.0-1.eln121"
     },
-    "petsc": {
-        "name": "petsc",
-        "notes": "2022-10-06 BUILD FAIL - Takes days and times out for fail",
-        "nvr": "petsc-3.17.4-3.eln121"
-    },
     "plasma-nm": {
         "name": "plasma-nm",
         "notes": "2022-10-06 BUILD FAIL - SPEC - extra packages - fix conditional",
-        "nvr": "plasma-nm-5.25.90-1.eln121"
+        "nvr": "plasma-nm-5.26.0-1.eln122"
     },
     "pstoedit": {
         "name": "pstoedit",
         "notes": "2022-10-06 BUILD FAIL - drvpptx.cpp:1335:8: error: 'unique_ptr' is not a member of 'std'",
-        "nvr": "pstoedit-3.78-5.eln120"
+        "nvr": "pstoedit-3.78-5.eln122"
     },
     "python-dcrpm": {
         "name": "python-dcrpm",
         "notes": "2022-10-06 BUILD FAIL - fails in %check",
-        "nvr": "python-dcrpm-0.6.3-4.eln120"
+        "nvr": "python-dcrpm-0.6.3-4.eln122"
     },
     "python-fastjsonschema": {
         "name": "python-fastjsonschema",
         "notes": "2022-10-06  BUILD FAIL - fails in %check",
-        "nvr": "python-fastjsonschema-2.16.1-1.eln120"
+        "nvr": "python-fastjsonschema-2.16.1-1.eln122"
     },
     "python-oauthlib": {
         "name": "python-oauthlib",
@@ -392,27 +387,22 @@
     "python-qrcode": {
         "name": "python-qrcode",
         "notes": "2022-10-06  BUILD FAIL - fails in %check",
-        "nvr": "python-qrcode-7.3.1-6.eln120"
+        "nvr": "python-qrcode-7.3.1-6.eln122"
     },
     "python-redis": {
         "name": "python-redis",
         "notes": "2022-10-06  BUILD FAIL - fails in %check",
-        "nvr": "python-redis-4.3.4-1.eln121"
+        "nvr": "python-redis-4.3.4-1.eln122"
     },
     "python-sphinx-bootstrap-theme": {
         "name": "python-sphinx-bootstrap-theme",
         "notes": "2022-10-06 DEPS - SPEC - No matching package to install: 'epel-rpm-macros'",
-        "nvr": "python-sphinx-bootstrap-theme-0.8.1-3.eln120"
+        "nvr": "python-sphinx-bootstrap-theme-0.8.1-3.eln122"
     },
     "python-sqlalchemy": {
         "name": "python-sqlalchemy",
         "notes": "2022-10-06 BUILD FAIL - fails in %check",
-        "nvr": "python-sqlalchemy-1.4.41-1.eln121"
-    },
-    "python2.7": {
-        "name": "python2.7",
-        "notes": "2022-10-06 NEW",
-        "nvr": "python2.7-2.7.18-25.eln121"
+        "nvr": "python-sqlalchemy-1.4.41-1.eln122"
     },
     "qt-creator": {
         "name": "qt-creator",
@@ -432,7 +422,7 @@
     "qt6-qttools": {
         "name": "qt6-qttools",
         "notes": "2022-10-06 DEPS - qt6-qtbase needs a rebuild to pull in new libicu",
-        "nvr": "qt6-qttools-6.3.1-3.eln121"
+        "nvr": "qt6-qttools-6.3.1-3.eln122"
     },
     "rsyslog": {
         "name": "rsyslog",
@@ -447,7 +437,7 @@
     "rubygem-rspec-its": {
         "name": "rubygem-rspec-its",
         "notes": "2022-10-06 BUILD FAIL - fails in %check",
-        "nvr": "rubygem-rspec-its-1.3.0-9.eln120"
+        "nvr": "rubygem-rspec-its-1.3.0-9.eln122"
     },
     "rubygem-sassc-rails": {
         "name": "rubygem-sassc-rails",
@@ -457,12 +447,17 @@
     "rubygem-test-unit-rr": {
         "name": "rubygem-test-unit-rr",
         "notes": "2022-10-06 DEPS - SPEC ??? - No matching package to install: 'ruby(abi) = 1.9.1'",
-        "nvr": "rubygem-test-unit-rr-1.0.5-14.eln120"
+        "nvr": "rubygem-test-unit-rr-1.0.5-14.eln122"
     },
     "runc": {
         "name": "runc",
         "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
         "nvr": "runc-1.1.2-4.eln121"
+    },
+    "rust": {
+        "name": "rust",
+        "notes": "2022-10-11 BUILD FAIL - LLVM - clang: symbol lookup error: /lib64/libclang-cpp.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15 ",
+        "nvr": "rust-1.64.0-1.eln122"
     },
     "rust-coreos-installer": {
         "name": "rust-coreos-installer",
@@ -472,12 +467,12 @@
     "scap-security-guide": {
         "name": "scap-security-guide",
         "notes": "2022-10-06 BUILD FAIL - SPEC - error: File not found: /builddir/build/BUILDROOT/scap-security-guide-0.1.63-1.eln121.noarch/usr/share/xml/scap/ssg/content",
-        "nvr": "scap-security-guide-0.1.62-3.eln121"
+        "nvr": "scap-security-guide-0.1.64-1.eln121"
     },
     "slirp4netns": {
         "name": "slirp4netns",
         "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
-        "nvr": "slirp4netns-1.2.0-5.eln121"
+        "nvr": "slirp4netns-1.2.0-10.eln122"
     },
     "strace": {
         "name": "strace",
@@ -489,6 +484,11 @@
         "notes": "2022-10-06 BUILD FAIL - LLVM - /usr/bin/clang++: symbol lookup error: /lib64/libclang-cpp.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
         "nvr": "swift-lang-5.7-3.eln121"
     },
+    "systemd": {
+        "name": "systemd",
+        "notes": "2022-10-11 BUILD FAIL - meson.build:1078:24: ERROR: Command '/usr/bin/clang --version' failed with status 127",
+        "nvr": "systemd-252~rc1-608.eln122"
+    },
     "texlive-base": {
         "name": "texlive-base",
         "notes": "2022-10-06 BUILD FAIL - checking requested system `xpdf' library... failed",
@@ -497,7 +497,7 @@
     "unbound": {
         "name": "unbound",
         "notes": "2022-10-06 BUILD FAIL - assertion failure testcode/unitverify.c:199",
-        "nvr": "unbound-1.16.3-2.eln121"
+        "nvr": "unbound-1.16.3-3.eln122"
     },
     "xdp-tools": {
         "name": "xdp-tools",
