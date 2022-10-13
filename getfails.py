@@ -58,7 +58,7 @@ print("Processing data")
 checked_failures = {}
 for json_entry in status_data:
   try:
-    if status_data[json_entry]["status"] == "BuildStatus.FAILED":
+    if status_data[json_entry]["status"] == "BuildStatus.FAILED" or status_data[json_entry]["status"] == "BuildStatus.OLDER_THAN_TAG" or status_data[json_entry]["status"] == "BuildStatus.NEWER_THAN_TAG":
       failed = True
       latest_nvr = latest_builds[json_entry]
       if '.fc3' in latest_nvr:
