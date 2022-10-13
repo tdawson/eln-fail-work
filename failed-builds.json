@@ -1,9 +1,4 @@
 {
-    "annobin": {
-        "name": "annobin",
-        "notes": "2022-10-11 BUILD FAIL - LLVM - clang++: symbol lookup error: /lib64/libclang-cpp.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
-        "nvr": "annobin-10.88-1.eln122"
-    },
     "argparse-manpage": {
         "name": "argparse-manpage",
         "notes": "2022-10-06 BUILD FAIL - Fails in %check",
@@ -28,11 +23,6 @@
         "name": "cjose",
         "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "cjose-0.6.1-10.eln120"
-    },
-    "clang": {
-        "name": "clang",
-        "notes": "2022-10-11 BUILD FAIL - LLVM - /usr/bin/clang: symbol lookup error: /lib64/libclang-cpp.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
-        "nvr": "clang-15.0.0-4.eln122"
     },
     "coffee-script": {
         "name": "coffee-script",
@@ -154,11 +144,6 @@
         "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "golang-github-grpc-ecosystem-gateway-1.16.0-3.eln120"
     },
-    "golang-github-grpc-ecosystem-middleware": {
-        "name": "golang-github-grpc-ecosystem-middleware",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-grpc-ecosystem-middleware-1.3.0-1.eln120"
-    },
     "golang-github-influxdata-influxdb1-client": {
         "name": "golang-github-influxdata-influxdb1-client",
         "notes": "2022-10-06 FAILS in rawhide",
@@ -262,7 +247,7 @@
     "graphviz": {
         "name": "graphviz",
         "notes": "2022-10-06 BUILD FAIL - SPEC -  File not found: /builddir/build/BUILDROOT/graphviz-6.0.1-2.eln122.x86_64/usr/bin/smyrna",
-        "nvr": "graphviz-6.0.1-2.eln122"
+        "nvr": "graphviz-6.0.2-1.eln122"
     },
     "gstreamer1-plugins-bad-free": {
         "name": "gstreamer1-plugins-bad-free",
@@ -274,14 +259,9 @@
         "notes": "2022-10-06 BUILD FAIL - build config - tests/examples/jack/meson.build:1:15: ERROR: Unknown variable libjack_dep.",
         "nvr": "gstreamer1-plugins-good-1.20.3-3.eln122"
     },
-    "hdf": {
-        "name": "hdf",
-        "notes": "2022-10-06 DEPS - i686 ONLY - nothing provides (java-headless or java-11-headless or java-1.8.0-headless) needed by hamcrest-2.2-8.eln121.noarch - There is no openjdk on i686",
-        "nvr": "hdf-4.2.15-11.eln122"
-    },
     "hdf5": {
         "name": "hdf5",
-        "notes": "2022-10-06 DEPS - i686 ONLY - nothing provides (java-headless or java-11-headless or java-1.8.0-headless) needed by hamcrest-2.2-8.eln121.noarch - There is no openjdk on i686",
+        "notes": "2022-10-13 NEVER ENDING BUILD",
         "nvr": "hdf5-1.12.1-10.eln122"
     },
     "keylime-agent-rust": {
@@ -298,6 +278,11 @@
         "name": "kig",
         "notes": "2022-10-06 BUILD FAIL - Not really sure why",
         "nvr": "kig-22.08.1-1.eln122"
+    },
+    "libbpf": {
+        "name": "libbpf",
+        "notes": "2022-10-13 DO NOT TAG INTO ELN - it has a soname bump that breaks things (libnbd)",
+        "nvr": "libbpf-1.0.0-2.eln122"
     },
     "libffi3.1": {
         "name": "libffi3.1",
@@ -319,39 +304,39 @@
         "notes": "2022-10-06 BUILD FAIL - SPEC - File not found: /builddir/build/BUILDROOT/libpsm2-11.2.229-1.eln122.x86_64/usr/lib/udev/rules.d/40-psm.rules",
         "nvr": "libpsm2-11.2.229-1.eln122"
     },
-    "lld": {
-        "name": "lld",
-        "notes": "2022-10-11 BUILD FAIL - LLVM - /usr/bin/clang: symbol lookup error: /lib64/libclang-cpp.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
-        "nvr": "lld-15.0.0-2.eln122"
+    "libreoffice": {
+        "name": "libreoffice",
+        "notes": "2022-10-12 BUILD FAIL - s390x only - fails on %check",
+        "nvr": "libreoffice-7.4.1.2-1.eln122"
     },
     "llvm11": {
         "name": "llvm11",
         "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "llvm11-11.1.0-9.eln121"
     },
+    "lv2": {
+        "name": "lv2",
+        "notes": "2022-10-13 DEPS - s390x only - langpacks-core-font-en-3.0-26.eln121.noarch: Cannot download, all mirrors were already tried without success - RETRY",
+        "nvr": "lv2-1.18.8-4.eln122"
+    },
     "maven-scm": {
         "name": "maven-scm",
         "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "maven-scm-1.10.0-13.eln120"
     },
-    "mozjs102": {
-        "name": "mozjs102",
-        "notes": "2022-10-06 BUILD FAIL - LLVM - /usr/bin/clang++: symbol lookup error: /lib64/libclang-cpp.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
-        "nvr": "mozjs102-102.3.0-1.eln121"
+    "mingw-python-setuptools": {
+        "name": "mingw-python-setuptools",
+        "notes": "2022-10-13 BUILD FAIL - SPEC ? - ModuleNotFoundError: No module named 'encodings'",
+        "nvr": "mingw-python-setuptools-59.6.0-6.eln122"
     },
     "netavark": {
         "name": "netavark",
         "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
         "nvr": "netavark-1.2.0-7.eln122"
     },
-    "oci-seccomp-bpf-hook": {
-        "name": "oci-seccomp-bpf-hook",
-        "notes": "2022-10-11 BUILD FAIL - LLVM - /usr/bin/ld: /usr/lib64/llvm14/lib/libclang-cpp.so.14: undefined reference to `LLVMInitializeVETarget@LLVM_14'",
-        "nvr": "oci-seccomp-bpf-hook-1.2.6-7.eln121"
-    },
     "opencv": {
         "name": "opencv",
-        "notes": "2022-10-06 DEPS - nothing provides libpoppler.so.117()(64bit) needed by gdcm-applications-3.0.12-5.eln121.x86_64",
+        "notes": "2022-10-06 BUILD FAIL - SPEC - File not found: /builddir/build/BUILDROOT/opencv-4.6.0-7.eln122.x86_64/usr/lib64/libopencv_freetype.so.{406,4.6.0}",
         "nvr": "opencv-4.6.0-7.eln121"
     },
     "pcp": {
@@ -359,10 +344,20 @@
         "notes": "2022-10-06 BUILD FAIL - parser-ragel.rl:41:57: error: macro ALLOC_CHECK requires 3 arguments, but only 1 givens",
         "nvr": "pcp-6.0.0-1.eln121"
     },
+    "petsc": {
+        "name": "petsc",
+        "notes": "2022-10-13 BUILD FAIL - fails on %check",
+        "nvr": "petsc-3.17.4-3.eln122"
+    },
     "plasma-nm": {
         "name": "plasma-nm",
         "notes": "2022-10-06 BUILD FAIL - SPEC - extra packages - fix conditional",
         "nvr": "plasma-nm-5.26.0-1.eln122"
+    },
+    "protobuf": {
+        "name": "protobuf",
+        "notes": "2022-10-13 BUILD FAIL - google/protobuf/pyext/descriptor.cc:102:18: error: invalid use of incomplete type \u2018PyFrameObject\u2019 {aka \u2018struct _frame\u2019}",
+        "nvr": "protobuf-3.19.4-6.eln122"
     },
     "pstoedit": {
         "name": "pstoedit",
@@ -404,24 +399,19 @@
         "notes": "2022-10-06 BUILD FAIL - fails in %check",
         "nvr": "python-sqlalchemy-1.4.41-1.eln122"
     },
+    "qclib": {
+        "name": "qclib",
+        "notes": "2022-10-13 BUILD FAIL - fails on %check",
+        "nvr": "qclib-2.3.2-1.eln122"
+    },
     "qt-creator": {
         "name": "qt-creator",
         "notes": "2022-10-06 BUILD FAIL - LLVM symbol lookup error: /lib64/libclang.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
-        "nvr": "qt-creator-8.0.1-5.eln121"
-    },
-    "qt5-qtdoc": {
-        "name": "qt5-qtdoc",
-        "notes": "2022-10-06 BUILD FAIL - LLVM - /../lib64/qt5/bin/qdoc: symbol lookup error: /lib64/libclang.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
-        "nvr": "qt5-qtdoc-5.15.6-1.eln121"
-    },
-    "qt5-qttools": {
-        "name": "qt5-qttools",
-        "notes": "2022-10-06 BUILD FAIL - LLVM - /usr/bin/ld: /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/libclang.so: undefined reference to `LLVMInitializeMSP430AsmPrinter@LLVM_15'",
-        "nvr": "qt5-qttools-5.15.6-1.eln121"
+        "nvr": "qt-creator-8.0.1-5.eln122"
     },
     "qt6-qttools": {
         "name": "qt6-qttools",
-        "notes": "2022-10-06 DEPS - qt6-qtbase needs a rebuild to pull in new libicu",
+        "notes": "2022-10-06 BUILD FAIL - LLVM - ",
         "nvr": "qt6-qttools-6.3.1-3.eln122"
     },
     "rsyslog": {
@@ -454,11 +444,6 @@
         "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
         "nvr": "runc-1.1.2-4.eln121"
     },
-    "rust": {
-        "name": "rust",
-        "notes": "2022-10-11 BUILD FAIL - LLVM - clang: symbol lookup error: /lib64/libclang-cpp.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15 ",
-        "nvr": "rust-1.64.0-1.eln122"
-    },
     "rust-coreos-installer": {
         "name": "rust-coreos-installer",
         "notes": "2022-10-06 BAD DEPS - nothing provides crate(clap_derive/default) = 3.2.17 needed by rust-clap+clap_derive-devel-3.2.17-1.eln121.noarch",
@@ -474,20 +459,15 @@
         "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
         "nvr": "slirp4netns-1.2.0-10.eln122"
     },
+    "sphinx": {
+        "name": "sphinx",
+        "notes": "2022-10-13 DEPS - FAILS ON i686 - REQUIRES JAVA WHICH IS NOT ON i686",
+        "nvr": "sphinx-2.2.11-24.eln122"
+    },
     "strace": {
         "name": "strace",
         "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "strace-5.18-2.eln121"
-    },
-    "swift-lang": {
-        "name": "swift-lang",
-        "notes": "2022-10-06 BUILD FAIL - LLVM - /usr/bin/clang++: symbol lookup error: /lib64/libclang-cpp.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
-        "nvr": "swift-lang-5.7-3.eln121"
-    },
-    "systemd": {
-        "name": "systemd",
-        "notes": "2022-10-11 BUILD FAIL - meson.build:1078:24: ERROR: Command '/usr/bin/clang --version' failed with status 127",
-        "nvr": "systemd-252~rc1-608.eln122"
     },
     "texlive-base": {
         "name": "texlive-base",
@@ -498,11 +478,6 @@
         "name": "unbound",
         "notes": "2022-10-06 BUILD FAIL - assertion failure testcode/unitverify.c:199",
         "nvr": "unbound-1.16.3-3.eln122"
-    },
-    "xdp-tools": {
-        "name": "xdp-tools",
-        "notes": "2022-10-06 BUILD FAIL - LLVM - /usr/bin/clang: symbol lookup error: /lib64/libclang-cpp.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
-        "nvr": "xdp-tools-1.2.8-1.eln121"
     },
     "xmlrpc-c": {
         "name": "xmlrpc-c",
