@@ -1,497 +1,530 @@
 {
+    "SLOF": {
+        "name": "SLOF",
+        "notes": "2022-10-27 BUILD FAIL - ??? ld: iolib.o: compiled for a little endian system and target is big endian ; ld: failed to merge target specific data of file iolib.o ",
+        "nvr": "SLOF-20210217-5.git33a7322d.eln122",
+        "view": "eln-extras"
+    },
     "argparse-manpage": {
         "name": "argparse-manpage",
         "notes": "2022-10-06 BUILD FAIL - Fails in %check",
-        "nvr": "argparse-manpage-3-4.eln122"
+        "nvr": "argparse-manpage-3-4.eln122",
+        "view": "eln"
     },
     "bpftrace": {
         "name": "bpftrace",
         "notes": "2022-10-06 BUILD FAIL - /builddir/build/BUILD/bpftrace-0.16.0/src/bpftrace.cpp:2042:20: error: 'istream_iterator' is not a member of 'std'",
-        "nvr": "bpftrace-0.16.0-3.eln122"
+        "nvr": "bpftrace-0.16.0-3.eln122",
+        "view": "eln"
     },
     "btrfs-fuse": {
         "name": "btrfs-fuse",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "btrfs-fuse-0-8.20220301gitca53ed5.eln120"
+        "nvr": "btrfs-fuse-0-8.20220301gitca53ed5.eln122",
+        "view": "eln-extras"
     },
     "buildah": {
         "name": "buildah",
-        "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
-        "nvr": "buildah-1.28.0-5.eln122"
+        "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang' https://src.fedoraproject.org/rpms/buildah/pull-request/19",
+        "nvr": "buildah-1.28.0-6.eln123",
+        "view": "eln"
     },
     "cjose": {
         "name": "cjose",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "cjose-0.6.1-10.eln120"
+        "nvr": "cjose-0.6.1-10.eln120",
+        "view": "eln"
     },
     "coffee-script": {
         "name": "coffee-script",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "coffee-script-1.10.0-18.eln120"
-    },
-    "community-mysql": {
-        "name": "community-mysql",
-        "notes": "2022-10-06 BUILD FAIL - Fails on %check",
-        "nvr": "community-mysql-8.0.30-2.eln121"
+        "nvr": "coffee-script-1.10.0-18.eln120",
+        "view": "eln"
     },
     "containernetworking-plugins": {
         "name": "containernetworking-plugins",
-        "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
-        "nvr": "containernetworking-plugins-1.1.1-12.eln122"
+        "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang' https://src.fedoraproject.org/rpms/containernetworking-plugins/pull-request/2",
+        "nvr": "containernetworking-plugins-1.1.1-12.eln122",
+        "view": "eln"
     },
     "crun": {
         "name": "crun",
-        "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
-        "nvr": "crun-1.6-5.eln122"
+        "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang' https://src.fedoraproject.org/rpms/crun/pull-request/1",
+        "nvr": "crun-1.6-5.eln122",
+        "view": "eln"
     },
     "dotnet6.0": {
         "name": "dotnet6.0",
         "notes": "2022-10-06 BUILD FAIL - Many errors, cannot figure out problem",
-        "nvr": "dotnet6.0-6.0.108-3.eln122"
+        "nvr": "dotnet6.0-6.0.109-1.eln122",
+        "view": "eln"
     },
     "enchant2": {
         "name": "enchant2",
-        "notes": "2022-10-06 BUILD FAIL - SPEC - File not found: /builddir/build/BUILDROOT/enchant2-2.3.3-2.eln122.x86_64/usr/i686-w64-mingw32/sys-root/mingw/lib/enchant-2/enchant_nuspell.dll",
-        "nvr": "enchant2-2.3.3-2.eln122"
+        "notes": "2022-10-06 BUILD FAIL - SPEC - File not found: /builddir/build/BUILDROOT/enchant2-2.3.3-2.eln122.x86_64/usr/i686-w64-mingw32/sys-root/mingw/lib/enchant-2/enchant_nuspell.dll https://src.fedoraproject.org/rpms/enchant2/pull-request/6",
+        "nvr": "enchant2-2.3.3-2.eln122",
+        "view": "eln"
     },
     "etcd": {
         "name": "etcd",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "etcd-3.5.0-4.eln120"
+        "nvr": "etcd-3.5.0-4.eln120",
+        "view": "eln"
     },
-    "firefox": {
-        "name": "firefox",
-        "notes": "2022-10-06 ??? - Does not seem to attempt builds",
-        "nvr": "firefox-105.0.1-2.eln121"
+    "geos": {
+        "name": "geos",
+        "notes": "2022-10-27 BUILD FAIL - fails in %check",
+        "nvr": "geos-3.11.0-2.eln123",
+        "view": "eln-extras"
     },
     "gnome-initial-setup": {
         "name": "gnome-initial-setup",
         "notes": "2022-10-06 BUILD FAIL - /usr/bin/ld: /usr/lib64/libgtk-4.so: undefined reference to `sysprof_clock'",
-        "nvr": "gnome-initial-setup-43.0-3.eln121"
+        "nvr": "gnome-initial-setup-43.0-3.eln121",
+        "view": "eln"
     },
     "gnome-logs": {
         "name": "gnome-logs",
         "notes": "2022-10-06 BUILD FAIL - /usr/bin/ld: /usr/lib64/libgtk-4.so: undefined reference to `sysprof_clock'",
-        "nvr": "gnome-logs-43.0-1.eln121"
+        "nvr": "gnome-logs-43.0-1.eln121",
+        "view": "eln"
     },
     "gnome-remote-desktop": {
         "name": "gnome-remote-desktop",
         "notes": "2022-10-06 BUILD FAIL - SPEC - ERROR: Problem encountered: Support for audio output redirection using FDK AAC requires the RDP backend",
-        "nvr": "gnome-remote-desktop-43.0-1.eln121"
+        "nvr": "gnome-remote-desktop-43.1-1.eln123",
+        "view": "eln"
     },
     "golang-code-cloudfoundry-bytefmt": {
         "name": "golang-code-cloudfoundry-bytefmt",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-code-cloudfoundry-bytefmt-0-0.9.20210114gitcf55d52.eln120"
+        "nvr": "golang-code-cloudfoundry-bytefmt-0-0.9.20210114gitcf55d52.eln120",
+        "view": "eln"
     },
     "golang-code-cloudfoundry-clock": {
         "name": "golang-code-cloudfoundry-clock",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-code-cloudfoundry-clock-1.0.0-5.eln120"
-    },
-    "golang-github-aws-sdk-2": {
-        "name": "golang-github-aws-sdk-2",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-aws-sdk-2-1.8.0-1.eln120"
-    },
-    "golang-github-azure-sdk": {
-        "name": "golang-github-azure-sdk",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-azure-sdk-55.0.0-2.eln120"
+        "nvr": "golang-code-cloudfoundry-clock-1.0.0-5.eln120",
+        "view": "eln"
     },
     "golang-github-cockroachdb-sentry": {
         "name": "golang-github-cockroachdb-sentry",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-cockroachdb-sentry-0.6.1-3.eln120"
+        "nvr": "golang-github-cockroachdb-sentry-0.6.1-3.eln120",
+        "view": "eln"
     },
     "golang-github-d2g-dhcp4client": {
         "name": "golang-github-d2g-dhcp4client",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-d2g-dhcp4client-1.0.0-8.eln120"
+        "nvr": "golang-github-d2g-dhcp4client-1.0.0-8.eln120",
+        "view": "eln"
     },
     "golang-github-dennwc-varint": {
         "name": "golang-github-dennwc-varint",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-dennwc-varint-1.0.0-2.eln120"
-    },
-    "golang-github-distribution-3": {
-        "name": "golang-github-distribution-3",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-distribution-3-2.8.0~beta.1-4.20220203gitb609265.eln121"
-    },
-    "golang-github-docker": {
-        "name": "golang-github-docker",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-docker-20.10.12-1.eln120"
-    },
-    "golang-github-docker-swarmkit": {
-        "name": "golang-github-docker-swarmkit",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-docker-swarmkit-1.12.0-20.20210420git17d8d4e.eln120"
+        "nvr": "golang-github-dennwc-varint-1.0.0-2.eln120",
+        "view": "eln"
     },
     "golang-github-gin-gonic": {
         "name": "golang-github-gin-gonic",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-gin-gonic-1.6.3-3.eln120"
+        "nvr": "golang-github-gin-gonic-1.6.3-3.eln120",
+        "view": "eln"
     },
     "golang-github-gobuffalo-packr": {
         "name": "golang-github-gobuffalo-packr",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-gobuffalo-packr-2.8.1-3.eln120"
+        "nvr": "golang-github-gobuffalo-packr-2.8.1-3.eln120",
+        "view": "eln"
     },
     "golang-github-grpc-ecosystem-gateway": {
         "name": "golang-github-grpc-ecosystem-gateway",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-grpc-ecosystem-gateway-1.16.0-3.eln120"
+        "nvr": "golang-github-grpc-ecosystem-gateway-1.16.0-3.eln120",
+        "view": "eln"
     },
     "golang-github-influxdata-influxdb1-client": {
         "name": "golang-github-influxdata-influxdb1-client",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-influxdata-influxdb1-client-0-0.8.20210109gitb269163.eln120"
+        "nvr": "golang-github-influxdata-influxdb1-client-0-0.8.20210109gitb269163.eln120",
+        "view": "eln"
     },
     "golang-github-macaron-inject": {
         "name": "golang-github-macaron-inject",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-macaron-inject-0-0.16.20210110git138e592.eln120"
+        "nvr": "golang-github-macaron-inject-0-0.16.20210110git138e592.eln120",
+        "view": "eln"
     },
     "golang-github-moby-spdystream": {
         "name": "golang-github-moby-spdystream",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-moby-spdystream-0.2.0-2.eln120"
+        "nvr": "golang-github-moby-spdystream-0.2.0-2.eln120",
+        "view": "eln"
     },
     "golang-github-prometheus-alertmanager": {
         "name": "golang-github-prometheus-alertmanager",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-prometheus-alertmanager-0.23.0-9.eln120"
+        "nvr": "golang-github-prometheus-alertmanager-0.23.0-9.eln120",
+        "view": "eln"
     },
     "golang-github-prometheus-exporter-toolkit": {
         "name": "golang-github-prometheus-exporter-toolkit",
         "notes": "2022-10-06 FIXED - SHOULD BE MARKED AS DONE - golang-github-prometheus-exporter-toolkit-0.6.1-5.eln121",
-        "nvr": "golang-github-prometheus-exporter-toolkit-0.6.1-3.eln120"
+        "nvr": "golang-github-prometheus-exporter-toolkit-0.6.1-3.eln120",
+        "view": "eln"
     },
     "golang-github-stretchr-objx": {
         "name": "golang-github-stretchr-objx",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-stretchr-objx-0.3.0-4.eln120"
+        "nvr": "golang-github-stretchr-objx-0.3.0-4.eln120",
+        "view": "eln"
     },
     "golang-github-tj-buffer": {
         "name": "golang-github-tj-buffer",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-tj-buffer-1.2.0-2.eln120"
+        "nvr": "golang-github-tj-buffer-1.2.0-2.eln120",
+        "view": "eln"
     },
     "golang-github-tklauser-sysconf": {
         "name": "golang-github-tklauser-sysconf",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-tklauser-sysconf-0.3.7-2.eln120"
+        "nvr": "golang-github-tklauser-sysconf-0.3.7-2.eln120",
+        "view": "eln"
     },
     "golang-github-ugorji": {
         "name": "golang-github-ugorji",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-ugorji-1.2.3-3.eln120"
+        "nvr": "golang-github-ugorji-1.2.3-3.eln120",
+        "view": "eln"
     },
     "golang-github-yvasiyarov-metrics": {
         "name": "golang-github-yvasiyarov-metrics",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-yvasiyarov-metrics-0-0.16.20190626gitc25f46c.eln120"
+        "nvr": "golang-github-yvasiyarov-metrics-0-0.16.20190626gitc25f46c.eln120",
+        "view": "eln"
     },
     "golang-github-zmap-zcertificate": {
         "name": "golang-github-zmap-zcertificate",
         "notes": "2022-10-06 FIXED - SHOULD BE MARKED AS DONE - golang-github-zmap-zcertificate-0.0.1-8.eln121",
-        "nvr": "golang-github-zmap-zcertificate-0.0.1-4.eln120"
+        "nvr": "golang-github-zmap-zcertificate-0.0.1-4.eln120",
+        "view": "eln"
     },
     "golang-gopkg-errgo-2": {
         "name": "golang-gopkg-errgo-2",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-gopkg-errgo-2-2.1.0-7.eln120"
+        "nvr": "golang-gopkg-errgo-2-2.1.0-7.eln120",
+        "view": "eln"
     },
     "golang-gopkg-tomb-1": {
         "name": "golang-gopkg-tomb-1",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-gopkg-tomb-1-1-8.20190623gitdd63297.eln120"
+        "nvr": "golang-gopkg-tomb-1-1-8.20190623gitdd63297.eln120",
+        "view": "eln"
     },
     "golang-gopkg-tomb-2": {
         "name": "golang-gopkg-tomb-2",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-gopkg-tomb-2-2-8.20190623gitd5d1b58.eln120"
+        "nvr": "golang-gopkg-tomb-2-2-8.20190623gitd5d1b58.eln120",
+        "view": "eln"
     },
     "golang-mozilla-pkcs7": {
         "name": "golang-mozilla-pkcs7",
         "notes": "2022-10-06 BUILD FAIL - Fails on %check",
-        "nvr": "golang-mozilla-pkcs7-0-0.6.20220831git33d0574.eln122"
+        "nvr": "golang-mozilla-pkcs7-0-0.6.20220831git33d0574.eln122",
+        "view": "eln"
     },
     "golang-sigs-k8s-apiserver-network-proxy": {
         "name": "golang-sigs-k8s-apiserver-network-proxy",
         "notes": "2022-10-06 BUILD FAILED - x86_64 only - fails in %check",
-        "nvr": "golang-sigs-k8s-apiserver-network-proxy-0.0.24-4.eln122"
+        "nvr": "golang-sigs-k8s-apiserver-network-proxy-0.0.24-4.eln122",
+        "view": "eln"
     },
     "golang-x-time": {
         "name": "golang-x-time",
-        "notes": "2022-10-06 PASSED - But version is older",
-        "nvr": "golang-x-time-0-0.24.20210123git7e3f01d.eln121"
+        "notes": "2022-10-06 FIXED - But version is older",
+        "nvr": "golang-x-time-0-0.24.20210123git7e3f01d.eln121",
+        "view": "eln"
     },
     "google-gson": {
         "name": "google-gson",
-        "notes": "2022-10-06 DEPS FAIL - SPEC -  No matching package to install: 'bnd-maven-plugin'",
-        "nvr": "google-gson-2.9.1-1.eln122"
+        "notes": "2022-10-06 DEPS FAIL - SPEC -  No matching package to install: 'bnd-maven-plugin'. Builds from aqute-bnd, but for rhel bnd-maven-plugin is turned off ",
+        "nvr": "google-gson-2.9.1-1.eln122",
+        "view": "eln"
     },
     "google-noto-fonts": {
         "name": "google-noto-fonts",
         "notes": "2022-10-06 BUILD FAILED - Can't figure out why",
-        "nvr": "google-noto-fonts-20201206^1.git0c78c8329-5.eln121"
+        "nvr": "google-noto-fonts-20201206^1.git0c78c8329-5.eln121",
+        "view": "eln-extras"
     },
     "grafana": {
         "name": "grafana",
         "notes": "2022-10-06 BUILD FAIL - imports crypto/boring: build constraints exclude all Go files in /usr/lib/golang/src/crypto/boring",
-        "nvr": "grafana-9.0.9-1.eln122"
+        "nvr": "grafana-9.0.9-1.eln122",
+        "view": "eln"
     },
     "graphviz": {
         "name": "graphviz",
         "notes": "2022-10-06 BUILD FAIL - SPEC -  File not found: /builddir/build/BUILDROOT/graphviz-6.0.1-2.eln122.x86_64/usr/bin/smyrna",
-        "nvr": "graphviz-6.0.2-1.eln122"
+        "nvr": "graphviz-6.0.2-3.eln122",
+        "view": "eln"
     },
     "gstreamer1-plugins-bad-free": {
         "name": "gstreamer1-plugins-bad-free",
         "notes": "2022-10-06 BUILD FAIL - meson.build:1:0: ERROR: Unknown options: vdpau",
-        "nvr": "gstreamer1-plugins-bad-free-1.20.3-2.eln122"
+        "nvr": "gstreamer1-plugins-bad-free-1.20.4-1.eln122",
+        "view": "eln"
     },
-    "gstreamer1-plugins-good": {
-        "name": "gstreamer1-plugins-good",
-        "notes": "2022-10-06 BUILD FAIL - build config - tests/examples/jack/meson.build:1:15: ERROR: Unknown variable libjack_dep.",
-        "nvr": "gstreamer1-plugins-good-1.20.3-3.eln122"
-    },
-    "hdf5": {
-        "name": "hdf5",
-        "notes": "2022-10-13 NEVER ENDING BUILD",
-        "nvr": "hdf5-1.12.1-10.eln122"
+    "htop": {
+        "name": "htop",
+        "notes": "2022-10-27 SPEC - No matching package to install: 'platform-python'",
+        "nvr": "htop-3.2.1-2.eln122",
+        "view": "eln-extras"
     },
     "keylime-agent-rust": {
         "name": "keylime-agent-rust",
         "notes": "2022-10-06 BUILD FAIL - error: failed to select a version for the requirement `clap = ^3.1.18`",
-        "nvr": "keylime-agent-rust-0.1.0~20220603gitaed51c7-3.eln122"
+        "nvr": "keylime-agent-rust-0.1.0~20220603gitaed51c7-3.eln122",
+        "view": "eln"
     },
     "kf5-kalarmcal": {
         "name": "kf5-kalarmcal",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "kf5-kalarmcal-21.12.3-2.eln122"
+        "nvr": "kf5-kalarmcal-21.12.3-1.eln122",
+        "view": "eln-extras"
     },
     "kig": {
         "name": "kig",
         "notes": "2022-10-06 BUILD FAIL - Not really sure why",
-        "nvr": "kig-22.08.1-1.eln122"
+        "nvr": "kig-22.08.2-1.eln123",
+        "view": "eln-extras"
     },
     "libbpf": {
         "name": "libbpf",
         "notes": "2022-10-13 DO NOT TAG INTO ELN - it has a soname bump that breaks things (libnbd)",
-        "nvr": "libbpf-1.0.0-2.eln122"
+        "nvr": "libbpf-1.0.0-2.eln122",
+        "view": "eln"
     },
     "libffi3.1": {
         "name": "libffi3.1",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "libffi3.1-3.1-33.eln120"
+        "nvr": "libffi3.1-3.1-33.eln120",
+        "view": "eln"
     },
     "libfido2": {
         "name": "libfido2",
         "notes": "2022-10-06 BUILD FAIL - Fails on %check",
-        "nvr": "libfido2-1.12.0-1.eln121"
+        "nvr": "libfido2-1.12.0-1.eln121",
+        "view": "eln"
+    },
+    "libkolabxml": {
+        "name": "libkolabxml",
+        "notes": "2022-10-27 BUILD FAIL - %install - INSTALL cannot find /builddir/build/BUILD/libkolabxml-1.2.0/redhat-linux-build/src/php/kolabformat.php",
+        "nvr": "libkolabxml-1.2.0-13.eln123",
+        "view": "eln-extras"
     },
     "libotr": {
         "name": "libotr",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "libotr-4.1.1-14.eln120"
+        "nvr": "libotr-4.1.1-14.eln120",
+        "view": "eln"
     },
     "libpsm2": {
         "name": "libpsm2",
         "notes": "2022-10-06 BUILD FAIL - SPEC - File not found: /builddir/build/BUILDROOT/libpsm2-11.2.229-1.eln122.x86_64/usr/lib/udev/rules.d/40-psm.rules",
-        "nvr": "libpsm2-11.2.229-1.eln122"
+        "nvr": "libpsm2-11.2.229-1.eln122",
+        "view": "eln"
     },
     "libreoffice": {
         "name": "libreoffice",
         "notes": "2022-10-12 BUILD FAIL - s390x only - fails on %check",
-        "nvr": "libreoffice-7.4.1.2-1.eln122"
+        "nvr": "libreoffice-7.4.2.3-1.eln122",
+        "view": "eln"
+    },
+    "libserf": {
+        "name": "libserf",
+        "notes": "2022-10-27 BUILD FAIL - gcc: fatal error: environment variable 'RPM_ARCH' not defined",
+        "nvr": "libserf-1.3.9-24.eln123",
+        "view": "eln-extras"
     },
     "llvm11": {
         "name": "llvm11",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "llvm11-11.1.0-9.eln121"
-    },
-    "lv2": {
-        "name": "lv2",
-        "notes": "2022-10-13 DEPS - s390x only - langpacks-core-font-en-3.0-26.eln121.noarch: Cannot download, all mirrors were already tried without success - RETRY",
-        "nvr": "lv2-1.18.8-4.eln122"
+        "nvr": "llvm11-11.1.0-9.eln121",
+        "view": "eln"
     },
     "maven-scm": {
         "name": "maven-scm",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "maven-scm-1.10.0-13.eln120"
+        "nvr": "maven-scm-1.10.0-13.eln120",
+        "view": "eln"
     },
     "mingw-python-setuptools": {
         "name": "mingw-python-setuptools",
         "notes": "2022-10-13 BUILD FAIL - SPEC ? - ModuleNotFoundError: No module named 'encodings'",
-        "nvr": "mingw-python-setuptools-59.6.0-6.eln122"
+        "nvr": "mingw-python-setuptools-59.6.0-6.eln122",
+        "view": "eln"
     },
     "netavark": {
         "name": "netavark",
         "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
-        "nvr": "netavark-1.2.0-7.eln122"
-    },
-    "opencv": {
-        "name": "opencv",
-        "notes": "2022-10-06 BUILD FAIL - SPEC - File not found: /builddir/build/BUILDROOT/opencv-4.6.0-7.eln122.x86_64/usr/lib64/libopencv_freetype.so.{406,4.6.0}",
-        "nvr": "opencv-4.6.0-7.eln121"
+        "nvr": "netavark-1.2.0-7.eln122",
+        "view": "eln"
     },
     "pcp": {
         "name": "pcp",
         "notes": "2022-10-06 BUILD FAIL - parser-ragel.rl:41:57: error: macro ALLOC_CHECK requires 3 arguments, but only 1 givens",
-        "nvr": "pcp-6.0.0-1.eln121"
-    },
-    "petsc": {
-        "name": "petsc",
-        "notes": "2022-10-13 BUILD FAIL - fails on %check",
-        "nvr": "petsc-3.17.4-3.eln122"
+        "nvr": "pcp-6.0.0-1.eln121",
+        "view": "eln"
     },
     "plasma-nm": {
         "name": "plasma-nm",
         "notes": "2022-10-06 BUILD FAIL - SPEC - extra packages - fix conditional",
-        "nvr": "plasma-nm-5.26.0-1.eln122"
+        "nvr": "plasma-nm-5.26.2-1.eln123",
+        "view": "eln-extras"
     },
     "protobuf": {
         "name": "protobuf",
         "notes": "2022-10-13 BUILD FAIL - google/protobuf/pyext/descriptor.cc:102:18: error: invalid use of incomplete type \u2018PyFrameObject\u2019 {aka \u2018struct _frame\u2019}",
-        "nvr": "protobuf-3.19.4-6.eln122"
+        "nvr": "protobuf-3.19.4-6.eln122",
+        "view": "eln"
     },
     "pstoedit": {
         "name": "pstoedit",
         "notes": "2022-10-06 BUILD FAIL - drvpptx.cpp:1335:8: error: 'unique_ptr' is not a member of 'std'",
-        "nvr": "pstoedit-3.78-5.eln122"
+        "nvr": "pstoedit-3.78-5.eln122",
+        "view": "eln"
     },
     "python-dcrpm": {
         "name": "python-dcrpm",
         "notes": "2022-10-06 BUILD FAIL - fails in %check",
-        "nvr": "python-dcrpm-0.6.3-4.eln122"
+        "nvr": "python-dcrpm-0.6.3-4.eln122",
+        "view": "eln-extras"
     },
     "python-fastjsonschema": {
         "name": "python-fastjsonschema",
         "notes": "2022-10-06  BUILD FAIL - fails in %check",
-        "nvr": "python-fastjsonschema-2.16.1-1.eln122"
+        "nvr": "python-fastjsonschema-2.16.1-1.eln122",
+        "view": "eln"
+    },
+    "python-matplotlib": {
+        "name": "python-matplotlib",
+        "notes": "2022-10-27 BUILD FAIL - ppc64le only - fails on %check",
+        "nvr": "python-matplotlib-3.6.1-1.eln123",
+        "view": "eln"
     },
     "python-oauthlib": {
         "name": "python-oauthlib",
         "notes": "2022-10-06 BUILD FAIL - fails in %check",
-        "nvr": "python-oauthlib-3.2.1-1.eln121"
+        "nvr": "python-oauthlib-3.2.1-1.eln121",
+        "view": "eln"
     },
     "python-qrcode": {
         "name": "python-qrcode",
         "notes": "2022-10-06  BUILD FAIL - fails in %check",
-        "nvr": "python-qrcode-7.3.1-6.eln122"
-    },
-    "python-redis": {
-        "name": "python-redis",
-        "notes": "2022-10-06  BUILD FAIL - fails in %check",
-        "nvr": "python-redis-4.3.4-1.eln122"
+        "nvr": "python-qrcode-7.3.1-6.eln122",
+        "view": "eln"
     },
     "python-sphinx-bootstrap-theme": {
         "name": "python-sphinx-bootstrap-theme",
         "notes": "2022-10-06 DEPS - SPEC - No matching package to install: 'epel-rpm-macros'",
-        "nvr": "python-sphinx-bootstrap-theme-0.8.1-3.eln122"
-    },
-    "python-sqlalchemy": {
-        "name": "python-sqlalchemy",
-        "notes": "2022-10-06 BUILD FAIL - fails in %check",
-        "nvr": "python-sqlalchemy-1.4.41-1.eln122"
+        "nvr": "python-sphinx-bootstrap-theme-0.8.1-3.eln122",
+        "view": "eln"
     },
     "qclib": {
         "name": "qclib",
         "notes": "2022-10-13 BUILD FAIL - fails on %check",
-        "nvr": "qclib-2.3.2-1.eln122"
+        "nvr": "qclib-2.3.2-1.eln122",
+        "view": "eln"
     },
-    "qt-creator": {
-        "name": "qt-creator",
-        "notes": "2022-10-06 BUILD FAIL - LLVM symbol lookup error: /lib64/libclang.so.15: undefined symbol: LLVMInitializeHexagonAsmParser, version LLVM_15",
-        "nvr": "qt-creator-8.0.1-5.eln122"
-    },
-    "qt6-qttools": {
-        "name": "qt6-qttools",
-        "notes": "2022-10-06 BUILD FAIL - LLVM - ",
-        "nvr": "qt6-qttools-6.3.1-3.eln122"
+    "qt6-qtimageformats": {
+        "name": "qt6-qtimageformats",
+        "notes": "2022-10-27 BUILD FAIL - CMake Error at /usr/lib64/cmake/Qt6/QtPublicTargetHelpers.cmake:257 (set_property)",
+        "nvr": "qt6-qtimageformats-6.3.1-2.eln123",
+        "view": "eln-extras"
     },
     "rsyslog": {
         "name": "rsyslog",
         "notes": "2022-10-06 BUILD FAIL - SPEC - configure: error: libdbi is missing -  enables libdbi for all, but does not install it for RHEL",
-        "nvr": "rsyslog-8.2204.0-2.eln120"
+        "nvr": "rsyslog-8.2204.0-2.eln120",
+        "view": "eln"
     },
     "ruby": {
         "name": "ruby",
         "notes": "2022-10-06 NEED ELN ONLY BRANCH",
-        "nvr": "ruby-3.1.2-169.eln121"
+        "nvr": "ruby-3.1.2-169.eln121",
+        "view": "eln"
     },
     "rubygem-rspec-its": {
         "name": "rubygem-rspec-its",
         "notes": "2022-10-06 BUILD FAIL - fails in %check",
-        "nvr": "rubygem-rspec-its-1.3.0-9.eln122"
+        "nvr": "rubygem-rspec-its-1.3.0-9.eln122",
+        "view": "eln"
     },
     "rubygem-sassc-rails": {
         "name": "rubygem-sassc-rails",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "rubygem-sassc-rails-2.1.2-4.eln120"
-    },
-    "rubygem-test-unit-rr": {
-        "name": "rubygem-test-unit-rr",
-        "notes": "2022-10-06 DEPS - SPEC ??? - No matching package to install: 'ruby(abi) = 1.9.1'",
-        "nvr": "rubygem-test-unit-rr-1.0.5-14.eln122"
+        "nvr": "rubygem-sassc-rails-2.1.2-4.eln120",
+        "view": "eln"
     },
     "runc": {
         "name": "runc",
-        "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
-        "nvr": "runc-1.1.2-4.eln121"
-    },
-    "rust-coreos-installer": {
-        "name": "rust-coreos-installer",
-        "notes": "2022-10-06 BAD DEPS - nothing provides crate(clap_derive/default) = 3.2.17 needed by rust-clap+clap_derive-devel-3.2.17-1.eln121.noarch",
-        "nvr": "rust-coreos-installer-0.16.0-1.eln121"
+        "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang' https://src.fedoraproject.org/rpms/runc/pull-request/5",
+        "nvr": "runc-1.1.4-1.eln122",
+        "view": "eln"
     },
     "scap-security-guide": {
         "name": "scap-security-guide",
         "notes": "2022-10-06 BUILD FAIL - SPEC - error: File not found: /builddir/build/BUILDROOT/scap-security-guide-0.1.63-1.eln121.noarch/usr/share/xml/scap/ssg/content",
-        "nvr": "scap-security-guide-0.1.64-1.eln121"
+        "nvr": "scap-security-guide-0.1.64-1.eln121",
+        "view": "eln"
     },
     "slirp4netns": {
         "name": "slirp4netns",
-        "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
-        "nvr": "slirp4netns-1.2.0-10.eln122"
+        "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang' https://src.fedoraproject.org/rpms/slirp4netns/pull-request/3",
+        "nvr": "slirp4netns-1.2.0-10.eln122",
+        "view": "eln"
     },
     "sphinx": {
         "name": "sphinx",
         "notes": "2022-10-13 DEPS - FAILS ON i686 - REQUIRES JAVA WHICH IS NOT ON i686",
-        "nvr": "sphinx-2.2.11-24.eln122"
+        "nvr": "sphinx-2.2.11-24.eln122",
+        "view": "eln"
     },
     "strace": {
         "name": "strace",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "strace-5.18-2.eln121"
+        "nvr": "strace-5.18-2.eln121",
+        "view": "eln"
     },
     "texlive-base": {
         "name": "texlive-base",
         "notes": "2022-10-06 BUILD FAIL - checking requested system `xpdf' library... failed",
-        "nvr": "texlive-base-20210325-49.eln121"
+        "nvr": "texlive-base-20210325-49.eln121",
+        "view": "eln"
     },
     "unbound": {
         "name": "unbound",
         "notes": "2022-10-06 BUILD FAIL - assertion failure testcode/unitverify.c:199",
-        "nvr": "unbound-1.16.3-3.eln122"
+        "nvr": "unbound-1.16.3-3.eln122",
+        "view": "eln"
     },
     "xmlrpc-c": {
         "name": "xmlrpc-c",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "xmlrpc-c-1.51.0-15.eln120"
+        "nvr": "xmlrpc-c-1.51.0-15.eln120",
+        "view": "eln"
     },
     "xorg-x11-drv-vmware": {
         "name": "xorg-x11-drv-vmware",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "xorg-x11-drv-vmware-13.2.1-17.eln120"
+        "nvr": "xorg-x11-drv-vmware-13.2.1-17.eln120",
+        "view": "eln"
     },
     "yarnpkg": {
         "name": "yarnpkg",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "yarnpkg-1.22.17-2.eln120"
+        "nvr": "yarnpkg-1.22.17-2.eln120",
+        "view": "eln"
     }
 }
