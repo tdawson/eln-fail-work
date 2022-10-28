@@ -11,12 +11,6 @@
         "nvr": "argparse-manpage-3-4.eln122",
         "view": "eln"
     },
-    "bpftrace": {
-        "name": "bpftrace",
-        "notes": "2022-10-06 BUILD FAIL - /builddir/build/BUILD/bpftrace-0.16.0/src/bpftrace.cpp:2042:20: error: 'istream_iterator' is not a member of 'std'",
-        "nvr": "bpftrace-0.16.0-3.eln122",
-        "view": "eln"
-    },
     "btrfs-fuse": {
         "name": "btrfs-fuse",
         "notes": "2022-10-06 FAILS in rawhide",
@@ -27,12 +21,6 @@
         "name": "buildah",
         "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang' https://src.fedoraproject.org/rpms/buildah/pull-request/19",
         "nvr": "buildah-1.28.0-6.eln123",
-        "view": "eln"
-    },
-    "cjose": {
-        "name": "cjose",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "cjose-0.6.1-10.eln120",
         "view": "eln"
     },
     "coffee-script": {
@@ -57,12 +45,6 @@
         "name": "dotnet6.0",
         "notes": "2022-10-06 BUILD FAIL - Many errors, cannot figure out problem",
         "nvr": "dotnet6.0-6.0.109-1.eln122",
-        "view": "eln"
-    },
-    "enchant2": {
-        "name": "enchant2",
-        "notes": "2022-10-06 BUILD FAIL - SPEC - File not found: /builddir/build/BUILDROOT/enchant2-2.3.3-2.eln122.x86_64/usr/i686-w64-mingw32/sys-root/mingw/lib/enchant-2/enchant_nuspell.dll https://src.fedoraproject.org/rpms/enchant2/pull-request/6",
-        "nvr": "enchant2-2.3.3-2.eln122",
         "view": "eln"
     },
     "etcd": {
@@ -275,10 +257,10 @@
         "nvr": "gstreamer1-plugins-bad-free-1.20.4-1.eln122",
         "view": "eln"
     },
-    "htop": {
-        "name": "htop",
-        "notes": "2022-10-27 SPEC - No matching package to install: 'platform-python'",
-        "nvr": "htop-3.2.1-2.eln122",
+    "kate": {
+        "name": "kate",
+        "notes": "2022-10-28 NEW",
+        "nvr": "kate-22.08.2-1.eln122",
         "view": "eln-extras"
     },
     "keylime-agent-rust": {
