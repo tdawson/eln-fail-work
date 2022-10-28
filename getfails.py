@@ -60,7 +60,10 @@ for json_entry in status_data:
   try:
     if status_data[json_entry]["status"] == "BuildStatus.FAILED" or status_data[json_entry]["status"] == "BuildStatus.OLDER_THAN_TAG" or status_data[json_entry]["status"] == "BuildStatus.NEWER_THAN_TAG":
       failed = True
-      latest_nvr = latest_builds[json_entry]
+      if json_entry in latest_builds:
+        latest_nvr = latest_builds[json_entry]
+      else:
+        latest_nvr = "unknown-0-0"
       if '.fc3' in latest_nvr:
         # print(json_entry + " " + status_data[json_entry]["status"] + " " + status_data[json_entry]["nvr"] + " " + latest_nvr)
         #print(" FAIL - Rawhide package" + json_entry)
@@ -82,6 +85,7 @@ for json_entry in status_data:
         this_failure = {}
         this_failure['name'] = json_entry
         this_failure['nvr'] = status_data[json_entry]["nvr"]
+        this_failure['view'] = status_data[json_entry]["view"]
         try:
           this_failure['notes'] = old_data[json_entry]['notes']
         except:
