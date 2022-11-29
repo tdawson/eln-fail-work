@@ -58,7 +58,7 @@ print("Processing data")
 checked_failures = {}
 for json_entry in status_data:
   try:
-    if status_data[json_entry]["status"] == "BuildStatus.FAILED" or status_data[json_entry]["status"] == "BuildStatus.OLDER_THAN_TAG" or status_data[json_entry]["status"] == "BuildStatus.NEWER_THAN_TAG":
+    if status_data[json_entry]["status"] == "BuildStatus.FAILED":
       failed = True
       if json_entry in latest_builds:
         latest_nvr = latest_builds[json_entry]
@@ -86,6 +86,7 @@ for json_entry in status_data:
         this_failure['name'] = json_entry
         this_failure['nvr'] = status_data[json_entry]["nvr"]
         this_failure['view'] = status_data[json_entry]["view"]
+        this_failure['source'] = status_data[json_entry]["source"]
         try:
           this_failure['notes'] = old_data[json_entry]['notes']
         except:
