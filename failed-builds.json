@@ -1,470 +1,492 @@
 {
+    "GitPython": {
+        "name": "GitPython",
+        "notes": "2022-11-18 NEW",
+        "nvr": "GitPython-3.1.27-3.eln120",
+        "source": "git+https://src.fedoraproject.org/rpms/GitPython#c519b142aad82d38d5747f5813205c1bbc9c9e50",
+        "view": "eln-extras"
+    },
+    "SDL2_image": {
+        "name": "SDL2_image",
+        "notes": "2022-11-29 NEW",
+        "nvr": "SDL2_image-2.6.1-1.eln121",
+        "source": "git+https://src.fedoraproject.org/rpms/SDL2_image.git#139cc924e499f95d4aff7ce96de2e18b9475b2dc",
+        "view": "eln-extras"
+    },
     "SLOF": {
         "name": "SLOF",
         "notes": "2022-10-27 BUILD FAIL - ??? ld: iolib.o: compiled for a little endian system and target is big endian ; ld: failed to merge target specific data of file iolib.o ",
         "nvr": "SLOF-20210217-5.git33a7322d.eln122",
+        "source": "git+https://src.fedoraproject.org/rpms/SLOF.git#37d98fc40328f8a89283bcb6b880abf6236d2d01",
+        "view": "eln-extras"
+    },
+    "akonadiconsole": {
+        "name": "akonadiconsole",
+        "notes": "2022-11-18 NEW",
+        "nvr": "akonadiconsole-22.08.3-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/akonadiconsole.git#72a8ab3dc4016ab88b1717a1ba184f323baa5f2e",
+        "view": "eln-extras"
+    },
+    "akregator": {
+        "name": "akregator",
+        "notes": "2022-11-18 NEW",
+        "nvr": "akregator-22.08.3-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/akregator.git#0fb8bf057af9c7e89fac7d9e8f34743222da0b86",
         "view": "eln-extras"
     },
     "btrfs-fuse": {
         "name": "btrfs-fuse",
         "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "btrfs-fuse-0-8.20220301gitca53ed5.eln122",
+        "source": "git+https://src.fedoraproject.org/rpms/btrfs-fuse.git#a60c32b8ce06c9216a3a46029261100b9e2e1274",
         "view": "eln-extras"
     },
     "coffee-script": {
         "name": "coffee-script",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "coffee-script-1.10.0-18.eln120",
+        "nvr": "coffee-script-1.10.0-19.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/coffee-script.git#799e862b448784ee487557deda6d362711c44d02",
         "view": "eln"
     },
-    "curl": {
-        "name": "curl",
-        "notes": "2022-10-31 NEW",
-        "nvr": "curl-7.86.0-1.eln123",
+    "fapolicyd": {
+        "name": "fapolicyd",
+        "notes": "2022-11-28 NEW",
+        "nvr": "fapolicyd-1.1.7-2.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/fapolicyd.git#49f103321f1a09195f6119433eb4e5a7ebef97e6",
         "view": "eln"
     },
-    "dotnet6.0": {
-        "name": "dotnet6.0",
-        "notes": "2022-10-06 BUILD FAIL - Many errors, cannot figure out problem",
-        "nvr": "dotnet6.0-6.0.109-1.eln122",
+    "galera": {
+        "name": "galera",
+        "notes": "2022-11-18 BUILD FAIL - not all arches - fails on %check",
+        "nvr": "galera-26.4.13-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/galera.git#dc48c43a8cbab975f1565bed62a303f99cc2810a",
         "view": "eln"
     },
-    "etcd": {
-        "name": "etcd",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "etcd-3.5.0-4.eln120",
-        "view": "eln"
-    },
-    "geos": {
-        "name": "geos",
-        "notes": "2022-10-27 BUILD FAIL - fails in %check",
-        "nvr": "geos-3.11.0-2.eln123",
+    "glusterfs": {
+        "name": "glusterfs",
+        "notes": "2022-11-29 NEW",
+        "nvr": "glusterfs-10.3-1.eln121",
+        "source": "git+https://src.fedoraproject.org/rpms/glusterfs.git#e2863d16368698f436354dada530b76c33ad7aee",
         "view": "eln-extras"
-    },
-    "gnome-logs": {
-        "name": "gnome-logs",
-        "notes": "2022-10-06 BUILD FAIL - /usr/bin/ld: /usr/lib64/libgtk-4.so: undefined reference to `sysprof_clock'",
-        "nvr": "gnome-logs-43.0-1.eln121",
-        "view": "eln"
-    },
-    "gnome-remote-desktop": {
-        "name": "gnome-remote-desktop",
-        "notes": "2022-10-06 BUILD FAIL - SPEC - ERROR: Problem encountered: Support for audio output redirection using FDK AAC requires the RDP backend",
-        "nvr": "gnome-remote-desktop-43.1-1.eln123",
-        "view": "eln"
-    },
-    "golang-code-cloudfoundry-bytefmt": {
-        "name": "golang-code-cloudfoundry-bytefmt",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-code-cloudfoundry-bytefmt-0-0.9.20210114gitcf55d52.eln120",
-        "view": "eln"
-    },
-    "golang-code-cloudfoundry-clock": {
-        "name": "golang-code-cloudfoundry-clock",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-code-cloudfoundry-clock-1.0.0-5.eln120",
-        "view": "eln"
-    },
-    "golang-github-cockroachdb-sentry": {
-        "name": "golang-github-cockroachdb-sentry",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-cockroachdb-sentry-0.6.1-3.eln120",
-        "view": "eln"
-    },
-    "golang-github-d2g-dhcp4client": {
-        "name": "golang-github-d2g-dhcp4client",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-d2g-dhcp4client-1.0.0-8.eln120",
-        "view": "eln"
-    },
-    "golang-github-dennwc-varint": {
-        "name": "golang-github-dennwc-varint",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-dennwc-varint-1.0.0-2.eln120",
-        "view": "eln"
-    },
-    "golang-github-gin-gonic": {
-        "name": "golang-github-gin-gonic",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-gin-gonic-1.6.3-3.eln120",
-        "view": "eln"
-    },
-    "golang-github-gobuffalo-packr": {
-        "name": "golang-github-gobuffalo-packr",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-gobuffalo-packr-2.8.1-3.eln120",
-        "view": "eln"
-    },
-    "golang-github-grpc-ecosystem-gateway": {
-        "name": "golang-github-grpc-ecosystem-gateway",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-grpc-ecosystem-gateway-1.16.0-3.eln120",
-        "view": "eln"
-    },
-    "golang-github-influxdata-influxdb1-client": {
-        "name": "golang-github-influxdata-influxdb1-client",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-influxdata-influxdb1-client-0-0.8.20210109gitb269163.eln120",
-        "view": "eln"
-    },
-    "golang-github-macaron-inject": {
-        "name": "golang-github-macaron-inject",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-macaron-inject-0-0.16.20210110git138e592.eln120",
-        "view": "eln"
-    },
-    "golang-github-moby-spdystream": {
-        "name": "golang-github-moby-spdystream",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-moby-spdystream-0.2.0-2.eln120",
-        "view": "eln"
-    },
-    "golang-github-prometheus-alertmanager": {
-        "name": "golang-github-prometheus-alertmanager",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-prometheus-alertmanager-0.23.0-9.eln120",
-        "view": "eln"
-    },
-    "golang-github-prometheus-exporter-toolkit": {
-        "name": "golang-github-prometheus-exporter-toolkit",
-        "notes": "2022-10-06 FIXED - SHOULD BE MARKED AS DONE - golang-github-prometheus-exporter-toolkit-0.6.1-5.eln121",
-        "nvr": "golang-github-prometheus-exporter-toolkit-0.6.1-3.eln120",
-        "view": "eln"
     },
     "golang-github-stretchr-objx": {
         "name": "golang-github-stretchr-objx",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-stretchr-objx-0.3.0-4.eln120",
+        "nvr": "golang-github-stretchr-objx-0.3.0-5.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/golang-github-stretchr-objx.git#53c9d99d8218964c791e23ea5bc0264b6011741c",
         "view": "eln"
-    },
-    "golang-github-tj-buffer": {
-        "name": "golang-github-tj-buffer",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-tj-buffer-1.2.0-2.eln120",
-        "view": "eln"
-    },
-    "golang-github-tklauser-sysconf": {
-        "name": "golang-github-tklauser-sysconf",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-tklauser-sysconf-0.3.7-2.eln120",
-        "view": "eln"
-    },
-    "golang-github-ugorji": {
-        "name": "golang-github-ugorji",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-ugorji-1.2.3-3.eln120",
-        "view": "eln"
-    },
-    "golang-github-yvasiyarov-metrics": {
-        "name": "golang-github-yvasiyarov-metrics",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-github-yvasiyarov-metrics-0-0.16.20190626gitc25f46c.eln120",
-        "view": "eln"
-    },
-    "golang-github-zmap-zcertificate": {
-        "name": "golang-github-zmap-zcertificate",
-        "notes": "2022-10-06 FIXED - SHOULD BE MARKED AS DONE - golang-github-zmap-zcertificate-0.0.1-8.eln121",
-        "nvr": "golang-github-zmap-zcertificate-0.0.1-4.eln120",
-        "view": "eln"
-    },
-    "golang-gopkg-errgo-2": {
-        "name": "golang-gopkg-errgo-2",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-gopkg-errgo-2-2.1.0-7.eln120",
-        "view": "eln"
-    },
-    "golang-gopkg-tomb-1": {
-        "name": "golang-gopkg-tomb-1",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-gopkg-tomb-1-1-8.20190623gitdd63297.eln120",
-        "view": "eln"
-    },
-    "golang-gopkg-tomb-2": {
-        "name": "golang-gopkg-tomb-2",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "golang-gopkg-tomb-2-2-8.20190623gitd5d1b58.eln120",
-        "view": "eln"
-    },
-    "golang-mozilla-pkcs7": {
-        "name": "golang-mozilla-pkcs7",
-        "notes": "2022-10-06 BUILD FAIL - Fails on %check",
-        "nvr": "golang-mozilla-pkcs7-0-0.6.20220831git33d0574.eln122",
-        "view": "eln"
-    },
-    "golang-sigs-k8s-apiserver-network-proxy": {
-        "name": "golang-sigs-k8s-apiserver-network-proxy",
-        "notes": "2022-10-06 BUILD FAILED - x86_64 only - fails in %check",
-        "nvr": "golang-sigs-k8s-apiserver-network-proxy-0.0.24-4.eln122",
-        "view": "eln"
-    },
-    "golang-x-time": {
-        "name": "golang-x-time",
-        "notes": "2022-10-06 FIXED - But version is older",
-        "nvr": "golang-x-time-0-0.24.20210123git7e3f01d.eln121",
-        "view": "eln"
-    },
-    "google-gson": {
-        "name": "google-gson",
-        "notes": "2022-10-06 DEPS FAIL - SPEC -  No matching package to install: 'bnd-maven-plugin'. Builds from aqute-bnd, but for rhel bnd-maven-plugin is turned off ",
-        "nvr": "google-gson-2.9.1-1.eln122",
-        "view": "eln"
-    },
-    "google-noto-fonts": {
-        "name": "google-noto-fonts",
-        "notes": "2022-10-06 BUILD FAILED - Can't figure out why",
-        "nvr": "google-noto-fonts-20201206^1.git0c78c8329-5.eln121",
-        "view": "eln-extras"
     },
     "grafana": {
         "name": "grafana",
         "notes": "2022-10-06 BUILD FAIL - imports crypto/boring: build constraints exclude all Go files in /usr/lib/golang/src/crypto/boring",
-        "nvr": "grafana-9.0.9-1.eln122",
+        "nvr": "grafana-9.0.9-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/grafana.git#329ced88434542155a3b0af792d007bc9476fc94",
         "view": "eln"
     },
-    "graphviz": {
-        "name": "graphviz",
-        "notes": "2022-10-06 BUILD FAIL - SPEC -  File not found: /builddir/build/BUILDROOT/graphviz-6.0.1-2.eln122.x86_64/usr/bin/smyrna",
-        "nvr": "graphviz-6.0.2-3.eln122",
+    "grantlee-editor": {
+        "name": "grantlee-editor",
+        "notes": "2022-11-18 NEW",
+        "nvr": "grantlee-editor-22.08.3-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/grantlee-editor.git#ffbbf39a19e8540145499118c275302bd26c3e56",
+        "view": "eln-extras"
+    },
+    "guestfs-tools": {
+        "name": "guestfs-tools",
+        "notes": "2022-11-28 NEW",
+        "nvr": "guestfs-tools-1.49.6-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/guestfs-tools.git#774e8d2cac1f4523ba547f65e079d8d0a7ca8dcd",
         "view": "eln"
     },
-    "gstreamer1-plugins-bad-free": {
-        "name": "gstreamer1-plugins-bad-free",
-        "notes": "2022-10-06 BUILD FAIL - meson.build:1:0: ERROR: Unknown options: vdpau",
-        "nvr": "gstreamer1-plugins-bad-free-1.20.4-1.eln122",
+    "hunspell-si": {
+        "name": "hunspell-si",
+        "notes": "2022-11-28 NEW",
+        "nvr": "hunspell-si-0.2.1-26.eln120",
+        "source": "git+https://src.fedoraproject.org/rpms/hunspell-si#413cdad4d55e4dfea0e3ac5e72935ee2ed2f0194",
         "view": "eln"
+    },
+    "ilbc": {
+        "name": "ilbc",
+        "notes": "2022-11-18 NEW",
+        "nvr": "ilbc-3.0.4-3.eln121",
+        "source": "git+https://src.fedoraproject.org/rpms/ilbc.git#e2ffa79b24b7cc1f34d472dc03f143ce47a5f4ea",
+        "view": "eln-extras"
     },
     "keylime-agent-rust": {
         "name": "keylime-agent-rust",
         "notes": "2022-10-06 BUILD FAIL - error: failed to select a version for the requirement `clap = ^3.1.18`",
-        "nvr": "keylime-agent-rust-0.1.0~20220603gitaed51c7-3.eln122",
+        "nvr": "keylime-agent-rust-0.1.0-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/keylime-agent-rust.git#72e12733c3e1133bfeeed2d219cf8653d3778ff7",
         "view": "eln"
     },
     "kf5-kalarmcal": {
         "name": "kf5-kalarmcal",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "kf5-kalarmcal-21.12.3-1.eln122",
+        "nvr": "kf5-kalarmcal-21.12.3-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/kf5-kalarmcal.git#923294cacb341b28168aecd34f0c1371533c453f",
         "view": "eln-extras"
     },
     "kig": {
         "name": "kig",
         "notes": "2022-10-06 BUILD FAIL - Not really sure why",
-        "nvr": "kig-22.08.2-1.eln123",
+        "nvr": "kig-22.08.3-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/kig.git#f813ca5c25ce8ed1b33024c82cf7576ecb6c9582",
         "view": "eln-extras"
     },
     "libbpf": {
         "name": "libbpf",
         "notes": "2022-10-13 DO NOT TAG INTO ELN - it has a soname bump that breaks things (libnbd)",
-        "nvr": "libbpf-1.0.0-2.eln122",
+        "nvr": "libbpf-1.0.0-3.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/libbpf.git#e088fe97687bc98a4b33ec83bf3bd5b2dea0e077",
         "view": "eln"
+    },
+    "libcacard": {
+        "name": "libcacard",
+        "notes": "2022-11-29 NEW",
+        "nvr": "libcacard-2.8.1-3.eln120",
+        "source": "git+https://src.fedoraproject.org/rpms/libcacard#ebf38b5dadca6423bb4cd58fb33a4407363e0ac7",
+        "view": "eln-extras"
+    },
+    "libdc1394": {
+        "name": "libdc1394",
+        "notes": "2022-11-18 NEW",
+        "nvr": "libdc1394-2.2.6-8.eln122",
+        "source": "git+https://src.fedoraproject.org/rpms/libdc1394.git#7f163ad27dee61c1dd0703dc2c9a59b5d332d965",
+        "view": "eln-extras"
     },
     "libffi3.1": {
         "name": "libffi3.1",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "libffi3.1-3.1-33.eln120",
+        "nvr": "libffi3.1-3.1-34.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/libffi3.1.git#bb41aa6ebe5f101cbeeb1db1665999d822570f5b",
         "view": "eln"
     },
-    "libfido2": {
-        "name": "libfido2",
-        "notes": "2022-10-06 BUILD FAIL - Fails on %check",
-        "nvr": "libfido2-1.12.0-1.eln121",
-        "view": "eln"
-    },
-    "libkolabxml": {
-        "name": "libkolabxml",
-        "notes": "2022-10-27 BUILD FAIL - %install - INSTALL cannot find /builddir/build/BUILD/libkolabxml-1.2.0/redhat-linux-build/src/php/kolabformat.php",
-        "nvr": "libkolabxml-1.2.0-13.eln123",
+    "libguestfs": {
+        "name": "libguestfs",
+        "notes": "2022-11-18 NEW",
+        "nvr": "libguestfs-1.49.7-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/libguestfs.git#8f8c5740d566f8f4dc013a78cd333bad618bbd89",
         "view": "eln-extras"
     },
-    "libotr": {
-        "name": "libotr",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "libotr-4.1.1-14.eln120",
+    "libldm": {
+        "name": "libldm",
+        "notes": "2022-11-28 NEW",
+        "nvr": "libldm-0.2.4-11.eln120",
+        "source": "git+https://src.fedoraproject.org/rpms/libldm#0dcedd9c208e7eee00782d75aaef12c161ba6e84",
+        "view": "eln-extras"
+    },
+    "libmodplug": {
+        "name": "libmodplug",
+        "notes": "2022-11-18 NEW",
+        "nvr": "libmodplug-0.8.9.0-15.eln120",
+        "source": "git+https://src.fedoraproject.org/rpms/libmodplug#61b3bf173767bf92611a92e9979167f5a3569a80",
+        "view": "eln-extras"
+    },
+    "libnbd": {
+        "name": "libnbd",
+        "notes": "2022-11-18 BUILD FAIL - not all arches - DEPS ocaml",
+        "nvr": "libnbd-1.15.8-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/libnbd.git#0ce6737b9feea4aa1bd58b0a87188019123c41d5",
         "view": "eln"
+    },
+    "libnfs": {
+        "name": "libnfs",
+        "notes": "2022-11-29 NEW",
+        "nvr": "libnfs-4.0.0-7.eln120",
+        "source": "git+https://src.fedoraproject.org/rpms/libnfs#1339256994031fc4bbf1aaebc3a619a6c637ef3f",
+        "view": "eln-extras"
+    },
+    "libopenmpt": {
+        "name": "libopenmpt",
+        "notes": "2022-11-18 NEW",
+        "nvr": "libopenmpt-0.6.6-1.eln121",
+        "source": "git+https://src.fedoraproject.org/rpms/libopenmpt.git#fefa09008a51adfed58a40ad75ec2763f2c88eeb",
+        "view": "eln-extras"
+    },
+    "libphonenumber": {
+        "name": "libphonenumber",
+        "notes": "2022-11-18 NEW",
+        "nvr": "libphonenumber-8.12.57-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/libphonenumber.git#a16d4818cb491a4206d476342ec2cd678b3d2cfa",
+        "view": "eln-extras"
     },
     "libpsm2": {
         "name": "libpsm2",
         "notes": "2022-10-06 BUILD FAIL - SPEC - File not found: /builddir/build/BUILDROOT/libpsm2-11.2.229-1.eln122.x86_64/usr/lib/udev/rules.d/40-psm.rules",
-        "nvr": "libpsm2-11.2.229-1.eln122",
+        "nvr": "libpsm2-11.2.229-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/libpsm2.git#b18d040a4187afe17f4265831c2425e11ddb7608",
         "view": "eln"
+    },
+    "libraw1394": {
+        "name": "libraw1394",
+        "notes": "2022-11-18 NEW",
+        "nvr": "libraw1394-2.1.2-16.eln122",
+        "source": "git+https://src.fedoraproject.org/rpms/libraw1394.git#04fdf920e103c4f62e7a5a74c1862b304c912810",
+        "view": "eln-extras"
     },
     "libreoffice": {
         "name": "libreoffice",
         "notes": "2022-10-12 BUILD FAIL - s390x only - fails on %check",
-        "nvr": "libreoffice-7.4.2.3-1.eln122",
+        "nvr": "libreoffice-7.4.3.2-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/libreoffice.git#1b3d7445c45179b96a4a2c209d5dfdaa4b22c548",
         "view": "eln"
     },
     "libserf": {
         "name": "libserf",
         "notes": "2022-10-27 BUILD FAIL - gcc: fatal error: environment variable 'RPM_ARCH' not defined",
         "nvr": "libserf-1.3.9-24.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/libserf.git#58205784c5927f02df58edbebcbda92731b9d7a6",
         "view": "eln-extras"
     },
     "libssh2": {
         "name": "libssh2",
         "notes": "2022-10-31 BUILD FAIL - Fails on %check - I think dealing with PubkeyAcceptedAlgorithms +ssh-rsa",
         "nvr": "libssh2-1.10.0-6.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/libssh2.git#75902ed4b916e1742c8a9b2020831cfd6d8a6878",
+        "view": "eln-extras"
+    },
+    "libudfread": {
+        "name": "libudfread",
+        "notes": "2022-11-18 NEW",
+        "nvr": "libudfread-1.1.2-4.eln120",
+        "source": "git+https://src.fedoraproject.org/rpms/libudfread#36633d32029ecc45a5843f83d6a4ed038614f13a",
         "view": "eln-extras"
     },
     "llvm11": {
         "name": "llvm11",
         "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "llvm11-11.1.0-9.eln121",
+        "source": "git+https://src.fedoraproject.org/rpms/llvm11.git#cff88eef551d3f56524a43e52a304e51225e8510",
+        "view": "eln"
+    },
+    "lpcnetfreedv": {
+        "name": "lpcnetfreedv",
+        "notes": "2022-11-18 NEW",
+        "nvr": "lpcnetfreedv-0.2-12.eln120",
+        "source": "git+https://src.fedoraproject.org/rpms/lpcnetfreedv#b74f7d2f2c0a048495dac3f9148d31365ef6d7c0",
+        "view": "eln-extras"
+    },
+    "mariadb": {
+        "name": "mariadb",
+        "notes": "2022-11-18 BUILD FAIL - ppc64le only - fails on %check",
+        "nvr": "mariadb-10.5.18-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/mariadb.git#c1ffd3ffe0d5c9e26c3f2f5fd6c71864f9b0c88c",
         "view": "eln"
     },
     "maven-scm": {
         "name": "maven-scm",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "maven-scm-1.10.0-13.eln120",
+        "nvr": "maven-scm-1.10.0-15.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/maven-scm.git#17c0528c8f1659ed8ad74e5ad3a72dea43fcc98c",
         "view": "eln"
     },
-    "mingw-python-setuptools": {
-        "name": "mingw-python-setuptools",
-        "notes": "2022-10-13 BUILD FAIL - SPEC ? - ModuleNotFoundError: No module named 'encodings'",
-        "nvr": "mingw-python-setuptools-59.6.0-6.eln122",
-        "view": "eln"
+    "mbox-importer": {
+        "name": "mbox-importer",
+        "notes": "2022-11-18 NEW",
+        "nvr": "mbox-importer-22.08.3-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/mbox-importer.git#ec3d387347982804ed354ddfda5be6ceb125e220",
+        "view": "eln-extras"
     },
-    "netavark": {
-        "name": "netavark",
-        "notes": "2022-10-06 SPEC - GO - i686 ONLY - BAD DEPS  - No matching package to install: 'go-md2man', 'golang'",
-        "nvr": "netavark-1.2.0-7.eln122",
-        "view": "eln"
+    "netcdf": {
+        "name": "netcdf",
+        "notes": "2022-11-18 NEW",
+        "nvr": "netcdf-4.9.0-3.eln122",
+        "source": "git+https://src.fedoraproject.org/rpms/netcdf.git#8e628e1519b94138a2075c96850c02ff0fd0c231",
+        "view": "eln-extras"
+    },
+    "pim-sieve-editor": {
+        "name": "pim-sieve-editor",
+        "notes": "2022-11-18 NEW",
+        "nvr": "pim-sieve-editor-22.08.3-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/pim-sieve-editor.git#9770dbefb69c9673e961fee07f4853ac7d47af24",
+        "view": "eln-extras"
     },
     "plasma-nm": {
         "name": "plasma-nm",
         "notes": "2022-10-06 BUILD FAIL - SPEC - extra packages - fix conditional",
-        "nvr": "plasma-nm-5.26.2-1.eln123",
+        "nvr": "plasma-nm-5.26.3-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/plasma-nm.git#e74c7a146f1d9d3b8390825b8990d57326da1d3e",
         "view": "eln-extras"
     },
     "protobuf": {
         "name": "protobuf",
         "notes": "2022-10-13 BUILD FAIL - google/protobuf/pyext/descriptor.cc:102:18: error: invalid use of incomplete type \u2018PyFrameObject\u2019 {aka \u2018struct _frame\u2019}",
-        "nvr": "protobuf-3.19.4-6.eln122",
-        "view": "eln"
+        "nvr": "protobuf-3.19.4-6.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/protobuf.git#6c8d4c7752309837ccf3895e82f924b06bf8d37e",
+        "view": "eln-extras"
     },
-    "pstoedit": {
-        "name": "pstoedit",
-        "notes": "2022-10-06 BUILD FAIL - drvpptx.cpp:1335:8: error: 'unique_ptr' is not a member of 'std'",
-        "nvr": "pstoedit-3.78-5.eln122",
+    "python-cryptography": {
+        "name": "python-cryptography",
+        "notes": "2022-11-28 NEW",
+        "nvr": "python-cryptography-37.0.2-5.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/python-cryptography.git#29c1c4ffe0307c119ad59cd1eeea5b335ed3d7d8",
         "view": "eln"
     },
     "python-dcrpm": {
         "name": "python-dcrpm",
         "notes": "2022-10-06 BUILD FAIL - fails in %check",
         "nvr": "python-dcrpm-0.6.3-4.eln122",
+        "source": "git+https://src.fedoraproject.org/rpms/python-dcrpm.git#65a0b32d95d6d07c49268d9c61aed91314c0c258",
         "view": "eln-extras"
     },
-    "python-fastjsonschema": {
-        "name": "python-fastjsonschema",
-        "notes": "2022-10-06  BUILD FAIL - fails in %check",
-        "nvr": "python-fastjsonschema-2.16.1-1.eln122",
-        "view": "eln"
-    },
-    "python-matplotlib": {
-        "name": "python-matplotlib",
-        "notes": "2022-10-27 BUILD FAIL - ppc64le only - fails on %check",
-        "nvr": "python-matplotlib-3.6.1-1.eln123",
-        "view": "eln"
+    "python-gitdb": {
+        "name": "python-gitdb",
+        "notes": "2022-11-18 NEW",
+        "nvr": "python-gitdb-4.0.9-4.eln120",
+        "source": "git+https://src.fedoraproject.org/rpms/python-gitdb#b82c1cc6e9fb4e20c1d855fa5ff69586f7509d7a",
+        "view": "eln-extras"
     },
     "python-oauthlib": {
         "name": "python-oauthlib",
         "notes": "2022-10-06 BUILD FAIL - fails in %check",
-        "nvr": "python-oauthlib-3.2.1-1.eln121",
+        "nvr": "python-oauthlib-3.2.1-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/python-oauthlib.git#bd7aeefd9547851c61c1b0609c4f506a24221076",
         "view": "eln"
     },
     "python-qrcode": {
         "name": "python-qrcode",
         "notes": "2022-10-06  BUILD FAIL - fails in %check",
-        "nvr": "python-qrcode-7.3.1-6.eln122",
+        "nvr": "python-qrcode-7.3.1-6.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/python-qrcode.git#3c685bed60f5db38257ba10b6736660665f126e4",
         "view": "eln"
     },
-    "python-sphinx-bootstrap-theme": {
-        "name": "python-sphinx-bootstrap-theme",
-        "notes": "2022-10-06 DEPS - SPEC - No matching package to install: 'epel-rpm-macros'",
-        "nvr": "python-sphinx-bootstrap-theme-0.8.1-3.eln122",
+    "python-smmap": {
+        "name": "python-smmap",
+        "notes": "2022-11-18 NEW",
+        "nvr": "python-smmap-5.0.0-3.eln120",
+        "source": "git+https://src.fedoraproject.org/rpms/python-smmap#2e19b78b19c9125630423cabeed48a416e76ce00",
+        "view": "eln-extras"
+    },
+    "python-sqlalchemy": {
+        "name": "python-sqlalchemy",
+        "notes": "2022-11-18 BUILD FAIL - fails on %check",
+        "nvr": "python-sqlalchemy-1.4.44-2.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/python-sqlalchemy.git#9e5c98850cfc10626d402384937ac78eebf2fd5f",
         "view": "eln"
     },
     "qclib": {
         "name": "qclib",
-        "notes": "2022-10-13 BUILD FAIL - fails on %check",
-        "nvr": "qclib-2.3.2-1.eln122",
+        "notes": "2022-10-13 BUILD FAIL - x86_64 only - fails on %check",
+        "nvr": "qclib-2.3.2-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/qclib.git#02893db73b8a056c27488228a16a0f26e1f6fa16",
         "view": "eln"
     },
-    "qt6-qtimageformats": {
-        "name": "qt6-qtimageformats",
-        "notes": "2022-10-27 BUILD FAIL - CMake Error at /usr/lib64/cmake/Qt6/QtPublicTargetHelpers.cmake:257 (set_property)",
-        "nvr": "qt6-qtimageformats-6.3.1-2.eln123",
+    "qemu": {
+        "name": "qemu",
+        "notes": "2022-11-28 NEW",
+        "nvr": "qemu-7.1.0-4.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/qemu.git#d09d3961a3b1d6f8f03e1701af19dca4415a916d",
         "view": "eln-extras"
     },
     "rsyslog": {
         "name": "rsyslog",
         "notes": "2022-10-06 BUILD FAIL - SPEC - configure: error: libdbi is missing -  enables libdbi for all, but does not install it for RHEL",
-        "nvr": "rsyslog-8.2204.0-2.eln120",
+        "nvr": "rsyslog-8.2210.0-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/rsyslog.git#5f15cb8d9b938d9f86afbe1e5b97e8ef61a36e1c",
         "view": "eln"
     },
     "ruby": {
         "name": "ruby",
         "notes": "2022-10-06 NEED ELN ONLY BRANCH",
-        "nvr": "ruby-3.1.2-169.eln121",
-        "view": "eln"
-    },
-    "rubygem-rspec-its": {
-        "name": "rubygem-rspec-its",
-        "notes": "2022-10-06 BUILD FAIL - fails in %check",
-        "nvr": "rubygem-rspec-its-1.3.0-9.eln122",
+        "nvr": "ruby-3.1.3-172.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/ruby.git#9819174c8dd5a04f7cc47d50d586cc6f72b8f0b7",
         "view": "eln"
     },
     "rubygem-sassc-rails": {
         "name": "rubygem-sassc-rails",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "rubygem-sassc-rails-2.1.2-4.eln120",
+        "nvr": "rubygem-sassc-rails-2.1.2-5.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/rubygem-sassc-rails.git#0e41faba8dbcc530e55feeab5577c6b71ac72023",
         "view": "eln"
+    },
+    "rust-rav1e": {
+        "name": "rust-rav1e",
+        "notes": "2022-11-18 NEW",
+        "nvr": "rust-rav1e-0.5.1-5.eln122",
+        "source": "git+https://src.fedoraproject.org/rpms/rust-rav1e.git#72cd36f806d55436ceb6dccdbce0d4736d127e8e",
+        "view": "eln-extras"
     },
     "scap-security-guide": {
         "name": "scap-security-guide",
         "notes": "2022-10-06 BUILD FAIL - SPEC - error: File not found: /builddir/build/BUILDROOT/scap-security-guide-0.1.63-1.eln121.noarch/usr/share/xml/scap/ssg/content",
-        "nvr": "scap-security-guide-0.1.64-1.eln121",
+        "nvr": "scap-security-guide-0.1.64-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/scap-security-guide.git#e588252f32aad97c65defae9047f8d65cc9aaf36",
         "view": "eln"
     },
-    "sphinx": {
-        "name": "sphinx",
-        "notes": "2022-10-13 DEPS - FAILS ON i686 - REQUIRES JAVA WHICH IS NOT ON i686",
-        "nvr": "sphinx-2.2.11-24.eln122",
-        "view": "eln"
+    "soxr": {
+        "name": "soxr",
+        "notes": "2022-11-18 NEW",
+        "nvr": "soxr-0.1.3-12.eln120",
+        "source": "git+https://src.fedoraproject.org/rpms/soxr#3d1e1fd4e35a5166ddf1384aba11e20b9f9fe1b0",
+        "view": "eln-extras"
+    },
+    "srt": {
+        "name": "srt",
+        "notes": "2022-11-18 NEW",
+        "nvr": "srt-1.5.1-1.eln121",
+        "source": "git+https://src.fedoraproject.org/rpms/srt.git#a67a7407e81669b7daa1403a19e1b5f8265f69f7",
+        "view": "eln-extras"
     },
     "strace": {
         "name": "strace",
         "notes": "2022-10-06 FAILS in rawhide",
         "nvr": "strace-6.0-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/strace.git#f47bfc4bfe6b6c093835222fedfefd53b8c648ce",
         "view": "eln"
     },
     "texlive-base": {
         "name": "texlive-base",
         "notes": "2022-10-06 BUILD FAIL - checking requested system `xpdf' library... failed",
-        "nvr": "texlive-base-20210325-49.eln121",
+        "nvr": "texlive-base-20210325-52.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/texlive-base.git#1c7ecd2c33bc9c084066e1aa15fa0334d5c011c0",
         "view": "eln"
     },
     "unbound": {
         "name": "unbound",
         "notes": "2022-10-06 BUILD FAIL - assertion failure testcode/unitverify.c:199",
-        "nvr": "unbound-1.16.3-3.eln122",
+        "nvr": "unbound-1.17.0-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/unbound.git#1da004f437be3e5e70ace37e09c6aa12b282af93",
+        "view": "eln"
+    },
+    "vapoursynth": {
+        "name": "vapoursynth",
+        "notes": "2022-11-18 NEW",
+        "nvr": "vapoursynth-58-3.eln120",
+        "source": "git+https://src.fedoraproject.org/rpms/vapoursynth#372eff27aa3e7990de472508d0ea3c8937b111ff",
+        "view": "eln-extras"
+    },
+    "virglrenderer": {
+        "name": "virglrenderer",
+        "notes": "2022-11-29 NEW",
+        "nvr": "virglrenderer-0.10.1-1.20220912git19dc97a2.eln121",
+        "source": "git+https://src.fedoraproject.org/rpms/virglrenderer.git#629d24cbfbcc7e800886710579a14c0c4430d163",
+        "view": "eln-extras"
+    },
+    "virt-top": {
+        "name": "virt-top",
+        "notes": "2022-11-28 NEW",
+        "nvr": "virt-top-1.1.1-7.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/virt-top.git#11384f44d33ae27e8f88469a62483c0c3213aebf",
+        "view": "eln"
+    },
+    "virt-v2v": {
+        "name": "virt-v2v",
+        "notes": "2022-11-28 NEW",
+        "nvr": "virt-v2v-2.1.10-1.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/virt-v2v.git#cceac096a80e960b806186d2d072f5d0e7f4e9e7",
         "view": "eln"
     },
     "xmlrpc-c": {
         "name": "xmlrpc-c",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "xmlrpc-c-1.51.0-15.eln120",
+        "nvr": "xmlrpc-c-1.51.0-16.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/xmlrpc-c.git#9bbd63d057027504d05d9834148d4230c2cc2608",
         "view": "eln"
     },
     "xorg-x11-drv-vmware": {
         "name": "xorg-x11-drv-vmware",
         "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "xorg-x11-drv-vmware-13.2.1-17.eln120",
-        "view": "eln"
-    },
-    "yarnpkg": {
-        "name": "yarnpkg",
-        "notes": "2022-10-06 FAILS in rawhide",
-        "nvr": "yarnpkg-1.22.17-2.eln120",
+        "nvr": "xorg-x11-drv-vmware-13.2.1-18.eln123",
+        "source": "git+https://src.fedoraproject.org/rpms/xorg-x11-drv-vmware.git#a5a0ad48f6ea55307584110836af209fd64daa4d",
         "view": "eln"
     }
 }
